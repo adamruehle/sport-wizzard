@@ -1,0 +1,101 @@
+{
+  "0": {
+    "event_id": "9e81dc7c9051597061ef37e54ffeaf31",
+    "date": "2024-02-27",
+    "time": "19:10:00",
+    "teams": [
+      "Orlando Magic",
+      "Brooklyn Nets"
+    ]
+  },
+  "1": {
+    "event_id": "709971c24dfc3bea07590c093fd5abc4",
+    "date": "2024-02-27",
+    "time": "19:10:00",
+    "teams": [
+      "Cleveland Cavaliers",
+      "Dallas Mavericks"
+    ]
+  },
+  "2": {
+    "event_id": "cd600b0fa6f0d8f444d99a256c1c90df",
+    "date": "2024-02-27",
+    "time": "19:10:00",
+    "teams": [
+      "Washington Wizards",
+      "Golden State Warriors"
+    ]
+  },
+  "3": {
+    "event_id": "7de4cab428eddcfaae70a444cf5078af",
+    "date": "2024-02-27",
+    "time": "19:40:00",
+    "teams": [
+      "Atlanta Hawks",
+      "Utah Jazz"
+    ]
+  },
+  "4": {
+    "event_id": "267d4f859eaa93c3434c08995d107738",
+    "date": "2024-02-27",
+    "time": "19:40:00",
+    "teams": [
+      "Boston Celtics",
+      "Philadelphia 76ers"
+    ]
+  },
+  "5": {
+    "event_id": "efa6d8d81e13bba0a94e8ea31fba90f5",
+    "date": "2024-02-27",
+    "time": "19:40:00",
+    "teams": [
+      "New York Knicks",
+      "New Orleans Pelicans"
+    ]
+  },
+  "6": {
+    "event_id": "8873e2fed7a0f51b1274c77d5c104ca0",
+    "date": "2024-02-27",
+    "time": "20:00:00",
+    "teams": [
+      "Chicago Bulls",
+      "Detroit Pistons"
+    ]
+  },
+  "7": {
+    "event_id": "06191ff441d3c91a4a67ee91d8187f0f",
+    "date": "2024-02-27",
+    "time": "20:10:00",
+    "teams": [
+      "Milwaukee Bucks",
+      "Charlotte Hornets"
+    ]
+  },
+  "8": {
+    "event_id": "d2983c968ea2b3d17cc560eb7f54c722",
+    "date": "2024-02-27",
+    "time": "20:10:00",
+    "teams": [
+      "Minnesota Timberwolves",
+      "San Antonio Spurs"
+    ]
+  },
+  "9": {
+    "event_id": "1c152b158bdbb51837c24cff45d08f4a",
+    "date": "2024-02-27",
+    "time": "22:00:00",
+    "teams": [
+      "Portland Trail Blazers",
+      "Miami Heat"
+    ]
+  },
+  "10": {
+    "event_id": "878135cdd9513bfb5cc9a03476e02676",
+    "date": "2024-02-27",
+    "time": "22:10:00",
+    "teams": [
+      "Oklahoma City Thunder",
+      "Houston Rockets"
+    ]
+  }
+}

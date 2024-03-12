@@ -1,0 +1,38 @@
+{
+  "0": {
+    "event_id": "9768de636bd9b326cee827df527c6b0f",
+    "date": "2024-02-26",
+    "time": "19:10:00",
+    "teams": [
+      "Indiana Pacers",
+      "Toronto Raptors"
+    ]
+  },
+  "1": {
+    "event_id": "dada6a3a3971143c47a4386c2562db81",
+    "date": "2024-02-26",
+    "time": "19:40:00",
+    "teams": [
+      "New York Knicks",
+      "Detroit Pistons"
+    ]
+  },
+  "2": {
+    "event_id": "66a9cfa921a31e1a9e58fdb41894bba8",
+    "date": "2024-02-26",
+    "time": "20:10:00",
+    "teams": [
+      "Memphis Grizzlies",
+      "Brooklyn Nets"
+    ]
+  },
+  "3": {
+    "event_id": "410e8f25287ad1c8d96be214730b1a17",
+    "date": "2024-02-26",
+    "time": "22:10:00",
+    "teams": [
+      "Sacramento Kings",
+      "Miami Heat"
+    ]
+  }
+}

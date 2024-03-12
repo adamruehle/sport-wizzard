@@ -1,0 +1,74 @@
+{
+  "0": {
+    "event_id": "0cda9fac6cfd2a4c734c6fd532bfa094",
+    "date": "2024-02-20",
+    "time": "19:00:00",
+    "teams": [
+      "New York Rangers",
+      "Dallas Stars"
+    ]
+  },
+  "1": {
+    "event_id": "2c6a27f306273dd62dd7dc7a3c65c93d",
+    "date": "2024-02-20",
+    "time": "19:00:00",
+    "teams": [
+      "Florida Panthers",
+      "Ottawa Senators"
+    ]
+  },
+  "2": {
+    "event_id": "71e1a0d096bc618e82478bf054e8c21a",
+    "date": "2024-02-20",
+    "time": "19:00:00",
+    "teams": [
+      "Washington Capitals",
+      "New Jersey Devils"
+    ]
+  },
+  "3": {
+    "event_id": "380a495b03554a5c14737c8fd3f2ffeb",
+    "date": "2024-02-20",
+    "time": "19:00:00",
+    "teams": [
+      "Pittsburgh Penguins",
+      "New York Islanders"
+    ]
+  },
+  "4": {
+    "event_id": "0303166bbb6b9229fce8d8cc9f53ea16",
+    "date": "2024-02-20",
+    "time": "20:00:00",
+    "teams": [
+      "Winnipeg Jets",
+      "Minnesota Wild"
+    ]
+  },
+  "5": {
+    "event_id": "c1111efe4ef3959137c2cc19be83d60e",
+    "date": "2024-02-20",
+    "time": "21:00:00",
+    "teams": [
+      "Colorado Avalanche",
+      "Vancouver Canucks"
+    ]
+  },
+  "6": {
+    "event_id": "e2c326e69068e088551617828888936e",
+    "date": "2024-02-20",
+    "time": "22:00:00",
+    "teams": [
+      "Vegas Golden Knights",
+      "Nashville Predators"
+    ]
+  },
+  "7": {
+    "event_id": "18f28afd326814161775a10a88caccb8",
+    "date": "2024-02-20",
+    "time": "22:30:00",
+    "teams": [
+      "Los Angeles Kings",
+      "Columbus Blue Jackets"
+    ]
+  }
+}

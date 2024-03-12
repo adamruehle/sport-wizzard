@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Rasmus Dahlin",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -280.0,
+    "type": "Over",
+    "implied_probability": 73.68,
+    "multiplier": "0.7"
+  },
+  {
+    "name": "Mats Zuccarello",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -220.0,
+    "type": "Over",
+    "implied_probability": 68.75,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Ryan Nugent-Hopkins",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -220.0,
+    "type": "Over",
+    "implied_probability": 68.75,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Mark Scheifele",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -215.0,
+    "type": "Over",
+    "implied_probability": 68.25,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Zach Hyman",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -215.0,
+    "type": "Over",
+    "implied_probability": 68.25,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Joel Eriksson Ek",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -200.0,
+    "type": "Over",
+    "implied_probability": 66.67,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Matt Boldy",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -195.0,
+    "type": "Over",
+    "implied_probability": 66.1,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Tage Thompson",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -190.0,
+    "type": "Over",
+    "implied_probability": 65.52,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Alex Tuch",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -185.0,
+    "type": "Over",
+    "implied_probability": 64.91,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Johnny Gaudreau",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -165.0,
+    "type": "Over",
+    "implied_probability": 62.26,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Evan Bouchard",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -165.0,
+    "type": "Over",
+    "implied_probability": 62.26,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Boone Jenner",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -155.0,
+    "type": "Over",
+    "implied_probability": 60.78,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Sean Monahan",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -155.0,
+    "type": "Over",
+    "implied_probability": 60.78,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Connor Bedard",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -155.0,
+    "type": "Over",
+    "implied_probability": 60.78,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Gabriel Vilardi",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -155.0,
+    "type": "Over",
+    "implied_probability": 60.78,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Dylan Cozens",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -150.0,
+    "type": "Over",
+    "implied_probability": 60.0,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Josh Morrissey",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -150.0,
+    "type": "Over",
+    "implied_probability": 60.0,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Gabriel Vilardi",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81,
+    "multiplier": "1"
+  },
+  {
+    "name": "Kirill Kaprizov",
+    "proptype": "Shots",
+    "line": 3.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33,
+    "multiplier": "1"
+  },
+  {
+    "name": "Josh Morrissey",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -123.0,
+    "type": "Under",
+    "implied_probability": 55.16,
+    "multiplier": "1"
+  },
+  {
+    "name": "Connor McDavid",
+    "proptype": "Shots",
+    "line": 3.5,
+    "odds": -121.0,
+    "type": "Under",
+    "implied_probability": 54.75,
+    "multiplier": "1"
+  }
+]

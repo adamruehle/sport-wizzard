@@ -1,0 +1,29 @@
+{
+  "0": {
+    "event_id": "e0293530e57ec66b875f6f1a0b7c61c4",
+    "date": "2024-02-23",
+    "time": "19:00:00",
+    "teams": [
+      "Columbus Blue Jackets",
+      "Buffalo Sabres"
+    ]
+  },
+  "1": {
+    "event_id": "eb780f2017e124b492f5544386f8d8b8",
+    "date": "2024-02-23",
+    "time": "20:30:00",
+    "teams": [
+      "Chicago Blackhawks",
+      "Winnipeg Jets"
+    ]
+  },
+  "2": {
+    "event_id": "275bba6375a02f882388424316200fca",
+    "date": "2024-02-23",
+    "time": "21:00:00",
+    "teams": [
+      "Edmonton Oilers",
+      "Minnesota Wild"
+    ]
+  }
+}

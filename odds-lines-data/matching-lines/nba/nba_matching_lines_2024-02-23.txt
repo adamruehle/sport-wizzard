@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Vince Williams Jr.",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -154.0,
+    "type": "Under",
+    "implied_probability": 60.63
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "Jalen Green",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Paul George",
+    "proptype": "Rebounds",
+    "line": 5.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Jabari Smith Jr.",
+    "proptype": "Rebounds",
+    "line": 8.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Jalen Williams",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Isaiah Joe",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Brandin Podziemski",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Miles Bridges",
+    "proptype": "Assists",
+    "line": 4.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Immanuel Quickley",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Chet Holmgren",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Brandon Miller",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Anthony Edwards",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Donovan Mitchell",
+    "proptype": "Threes",
+    "line": 3.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Alperen Sengun",
+    "proptype": "Rebounds",
+    "line": 9.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Andrew Wiggins",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Jonathan Kuminga",
+    "proptype": "Threes",
+    "line": 0.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Paul George",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Jimmy Butler",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Kyle Kuzma",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Devin Vassell",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  }
+]

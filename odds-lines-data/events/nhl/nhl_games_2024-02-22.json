@@ -1,0 +1,101 @@
+{
+  "0": {
+    "event_id": "962bb6b5b81e363624e7d8311c7f823b",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Carolina Hurricanes",
+      "Florida Panthers"
+    ]
+  },
+  "1": {
+    "event_id": "8dc4bea5923a3a7856fc46d51ad55904",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Detroit Red Wings",
+      "Colorado Avalanche"
+    ]
+  },
+  "2": {
+    "event_id": "85a83a1a79b4e6f87af08509dedac0c1",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Ottawa Senators",
+      "Dallas Stars"
+    ]
+  },
+  "3": {
+    "event_id": "ec1b3a001f26f0e9fa25cd87f31d2a59",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Pittsburgh Penguins",
+      "Montr\u00e9al Canadiens"
+    ]
+  },
+  "4": {
+    "event_id": "a5ad9c24e6f0999a0b3db14ddccbad0f",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "New Jersey Devils",
+      "New York Rangers"
+    ]
+  },
+  "5": {
+    "event_id": "4bdc90649a645332aad07f0ebd50cad0",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Tampa Bay Lightning",
+      "Washington Capitals"
+    ]
+  },
+  "6": {
+    "event_id": "65cbf6aece557cb5a07028e4ebd976b1",
+    "date": "2024-02-22",
+    "time": "20:00:00",
+    "teams": [
+      "St Louis Blues",
+      "New York Islanders"
+    ]
+  },
+  "7": {
+    "event_id": "ebfbf3c256829902bf273bb93b4f4e0b",
+    "date": "2024-02-22",
+    "time": "21:00:00",
+    "teams": [
+      "Calgary Flames",
+      "Boston Bruins"
+    ]
+  },
+  "8": {
+    "event_id": "820eddd579710d0065c4aef372f63a29",
+    "date": "2024-02-22",
+    "time": "22:00:00",
+    "teams": [
+      "Seattle Kraken",
+      "Vancouver Canucks"
+    ]
+  },
+  "9": {
+    "event_id": "aa01a25a6121ffb1e74b019a0e2c38b3",
+    "date": "2024-02-22",
+    "time": "22:00:00",
+    "teams": [
+      "Vegas Golden Knights",
+      "Toronto Maple Leafs"
+    ]
+  },
+  "10": {
+    "event_id": "34d8f26ee93fcdaec0d7ccd609da8efb",
+    "date": "2024-02-22",
+    "time": "22:30:00",
+    "teams": [
+      "Los Angeles Kings",
+      "Nashville Predators"
+    ]
+  }
+}

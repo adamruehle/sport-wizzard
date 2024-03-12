@@ -1,0 +1,47 @@
+{
+  "0": {
+    "event_id": "ae09da1a5bc99f3d279fd045c8dbf28d",
+    "date": "2024-02-21",
+    "time": "19:00:00",
+    "teams": [
+      "Montr\u00e9al Canadiens",
+      "Buffalo Sabres"
+    ]
+  },
+  "1": {
+    "event_id": "7cea404bf08c69fa1a0a8bd839ad6076",
+    "date": "2024-02-21",
+    "time": "19:30:00",
+    "teams": [
+      "Chicago Blackhawks",
+      "Philadelphia Flyers"
+    ]
+  },
+  "2": {
+    "event_id": "2b438f7496cb1ebae60ec54d28305991",
+    "date": "2024-02-21",
+    "time": "22:00:00",
+    "teams": [
+      "Anaheim Ducks",
+      "Columbus Blue Jackets"
+    ]
+  },
+  "3": {
+    "event_id": "6f70a40034551e99191420b3bb57adee",
+    "date": "2024-02-21",
+    "time": "22:00:00",
+    "teams": [
+      "Arizona Coyotes",
+      "Toronto Maple Leafs"
+    ]
+  },
+  "4": {
+    "event_id": "2a46f5be9f5a4a2f8295ae697764e3d4",
+    "date": "2024-02-21",
+    "time": "22:00:00",
+    "teams": [
+      "Edmonton Oilers",
+      "Boston Bruins"
+    ]
+  }
+}

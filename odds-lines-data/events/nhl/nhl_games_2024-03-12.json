@@ -1,0 +1,47 @@
+{
+  "5": {
+    "event_id": "28fa9ef382a71a3d6b6cc6e02ef17cf3",
+    "date": "2024-03-12",
+    "time": "20:00:00",
+    "teams": [
+      "Minnesota Wild",
+      "Arizona Coyotes"
+    ]
+  },
+  "6": {
+    "event_id": "0ee85ee65cb517a0a8929ebdc9783b56",
+    "date": "2024-03-12",
+    "time": "20:00:00",
+    "teams": [
+      "Dallas Stars",
+      "Florida Panthers"
+    ]
+  },
+  "7": {
+    "event_id": "5c1edce3f20f80c902629a315970cd01",
+    "date": "2024-03-12",
+    "time": "20:30:00",
+    "teams": [
+      "Chicago Blackhawks",
+      "Anaheim Ducks"
+    ]
+  },
+  "8": {
+    "event_id": "3fd4f1c1c20333f3144546190a45cbf6",
+    "date": "2024-03-12",
+    "time": "21:00:00",
+    "teams": [
+      "Calgary Flames",
+      "Colorado Avalanche"
+    ]
+  },
+  "9": {
+    "event_id": "12c5d14dcdb65395458fdcf7f90ea20b",
+    "date": "2024-03-12",
+    "time": "22:00:00",
+    "teams": [
+      "Seattle Kraken",
+      "Vegas Golden Knights"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Chris Kreider",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -200.0,
+    "type": "Over",
+    "implied_probability": 66.67,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Adam Fox",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -172.0,
+    "type": "Over",
+    "implied_probability": 63.24,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Dmitri Voronkov",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -167.0,
+    "type": "Over",
+    "implied_probability": 62.55,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Alexis Lafreniere",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -164.0,
+    "type": "Over",
+    "implied_probability": 62.12,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Torey Krug",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -161.0,
+    "type": "Over",
+    "implied_probability": 61.69,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Evan Bouchard",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -161.0,
+    "type": "Over",
+    "implied_probability": 61.69,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Boone Jenner",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -156.0,
+    "type": "Over",
+    "implied_probability": 60.94,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Jack Roslovic",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -154.0,
+    "type": "Over",
+    "implied_probability": 60.63,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Leon Draisaitl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -147.0,
+    "type": "Over",
+    "implied_probability": 59.51,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Robert Thomas",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -145.0,
+    "type": "Over",
+    "implied_probability": 59.18,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Chris Kreider",
+    "proptype": "Shots",
+    "line": 3.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": "1"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Shai Gilgeous-Alexander",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85
+  },
+  {
+    "name": "Josh Giddey",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "Chet Holmgren",
+    "proptype": "Rebounds",
+    "line": 8.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Andrew Nembhard",
+    "proptype": "PointsReboundsAssists",
+    "line": 14.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9
+  },
+  {
+    "name": "Isaiah Hartenstein",
+    "proptype": "PointsReboundsAssists",
+    "line": 17.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52
+  },
+  {
+    "name": "Kyle Lowry",
+    "proptype": "PointsReboundsAssists",
+    "line": 15.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14
+  },
+  {
+    "name": "Tyus Jones",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Corey Kispert",
+    "proptype": "PointsReboundsAssists",
+    "line": 23.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Josh Hart",
+    "proptype": "Rebounds",
+    "line": 9.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Jalen Brunson",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Myles Turner",
+    "proptype": "PointsReboundsAssists",
+    "line": 25.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Bilal Coulibaly",
+    "proptype": "PointsReboundsAssists",
+    "line": 16.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Victor Wembanyama",
+    "proptype": "PointsReboundsAssists",
+    "line": 37.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9
+  },
+  {
+    "name": "Malik Monk",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Malik Beasley",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9
+  },
+  {
+    "name": "James Harden",
+    "proptype": "PointsReboundsAssists",
+    "line": 30.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  }
+]

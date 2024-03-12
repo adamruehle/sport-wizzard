@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Cole Caufield",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -227.0,
+    "type": "Over",
+    "implied_probability": 69.42,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Lawson Crouse",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -196.0,
+    "type": "Over",
+    "implied_probability": 66.22,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Ryan Nugent-Hopkins",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -189.0,
+    "type": "Over",
+    "implied_probability": 65.4,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Alex Tuch",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -182.0,
+    "type": "Over",
+    "implied_probability": 64.54,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Brad Marchand",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -182.0,
+    "type": "Over",
+    "implied_probability": 64.54,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Alex Newhook",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Charlie McAvoy",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Darnell Nurse",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "John Tavares",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Zach Hyman",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Johnny Gaudreau",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -167.0,
+    "type": "Over",
+    "implied_probability": 62.55,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Josh Anderson",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -156.0,
+    "type": "Over",
+    "implied_probability": 60.94,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Jordan Greenway",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -152.0,
+    "type": "Over",
+    "implied_probability": 60.32,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Troy Terry",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -152.0,
+    "type": "Over",
+    "implied_probability": 60.32,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Boone Jenner",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -152.0,
+    "type": "Over",
+    "implied_probability": 60.32,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "William Nylander",
+    "proptype": "Shots",
+    "line": 3.5,
+    "odds": -147.0,
+    "type": "Over",
+    "implied_probability": 59.51,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Jeff Skinner",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -143.0,
+    "type": "Over",
+    "implied_probability": 58.85,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Ryan Strome",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -141.0,
+    "type": "Over",
+    "implied_probability": 58.51,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Sean Couturier",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -141.0,
+    "type": "Over",
+    "implied_probability": 58.51,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Juraj Slafkovsky",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -137.0,
+    "type": "Over",
+    "implied_probability": 57.81,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Brad Marchand",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": "1"
+  },
+  {
+    "name": "Max Domi",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -130.0,
+    "type": "Over",
+    "implied_probability": 56.52,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Cam Atkinson",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": "1"
+  },
+  {
+    "name": "John Tavares",
+    "proptype": "Shots",
+    "line": 3.5,
+    "odds": -122.0,
+    "type": "Under",
+    "implied_probability": 54.95,
+    "multiplier": "1"
+  },
+  {
+    "name": "Sean Durzi",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -167.0,
+    "type": "Over",
+    "implied_probability": 62.55,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Evander Kane",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -147.0,
+    "type": "Over",
+    "implied_probability": 59.51,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Clayton Keller",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -141.0,
+    "type": "Over",
+    "implied_probability": 58.51,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Troy Terry",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14,
+    "multiplier": "1"
+  }
+]

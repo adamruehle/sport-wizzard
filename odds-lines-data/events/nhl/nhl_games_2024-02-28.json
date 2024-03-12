@@ -1,0 +1,20 @@
+{
+  "0": {
+    "event_id": "5e7a19d361c937e1084a5a8811ab1f1a",
+    "date": "2024-02-28",
+    "time": "19:00:00",
+    "teams": [
+      "New York Rangers",
+      "Columbus Blue Jackets"
+    ]
+  },
+  "1": {
+    "event_id": "3695328a763924d97965f04b387f183a",
+    "date": "2024-02-28",
+    "time": "20:30:00",
+    "teams": [
+      "Edmonton Oilers",
+      "St Louis Blues"
+    ]
+  }
+}

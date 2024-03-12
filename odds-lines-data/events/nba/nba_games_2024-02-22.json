@@ -1,0 +1,38 @@
+{
+  "8": {
+    "event_id": "7ff47422d6625afda9544e899462ff06",
+    "date": "2024-02-22",
+    "time": "21:10:00",
+    "teams": [
+      "Utah Jazz",
+      "Charlotte Hornets"
+    ]
+  },
+  "9": {
+    "event_id": "56595ed6f5bc3a306a831775053f21eb",
+    "date": "2024-02-22",
+    "time": "21:10:00",
+    "teams": [
+      "Denver Nuggets",
+      "Washington Wizards"
+    ]
+  },
+  "10": {
+    "event_id": "0c47a6377ec36746b784609fafa4e25e",
+    "date": "2024-02-22",
+    "time": "22:00:00",
+    "teams": [
+      "Golden State Warriors",
+      "Los Angeles Lakers"
+    ]
+  },
+  "11": {
+    "event_id": "2a8c97bf2b28cdaf22c43a433f77a9c8",
+    "date": "2024-02-22",
+    "time": "22:10:00",
+    "teams": [
+      "Sacramento Kings",
+      "San Antonio Spurs"
+    ]
+  }
+}

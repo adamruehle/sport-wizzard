@@ -1,0 +1,56 @@
+{
+  "0": {
+    "event_id": "c84775905377e3f364847417061500ac",
+    "date": "2024-02-28",
+    "time": "19:30:00",
+    "teams": [
+      "Indiana Pacers",
+      "New Orleans Pelicans"
+    ]
+  },
+  "1": {
+    "event_id": "03ce640a1e88abcec22c784d2da84276",
+    "date": "2024-02-28",
+    "time": "19:40:00",
+    "teams": [
+      "Toronto Raptors",
+      "Dallas Mavericks"
+    ]
+  },
+  "2": {
+    "event_id": "96b3392988cf7f67e4d4ade73adc390e",
+    "date": "2024-02-28",
+    "time": "20:10:00",
+    "teams": [
+      "Chicago Bulls",
+      "Cleveland Cavaliers"
+    ]
+  },
+  "3": {
+    "event_id": "07d0e5712f774667d860648b1afa0d41",
+    "date": "2024-02-28",
+    "time": "20:10:00",
+    "teams": [
+      "Minnesota Timberwolves",
+      "Memphis Grizzlies"
+    ]
+  },
+  "4": {
+    "event_id": "39aa21368b38eb0ee94c8eacf5f99466",
+    "date": "2024-02-28",
+    "time": "21:10:00",
+    "teams": [
+      "Denver Nuggets",
+      "Sacramento Kings"
+    ]
+  },
+  "5": {
+    "event_id": "32895edf6e71e20c674415d1a4898b12",
+    "date": "2024-02-28",
+    "time": "22:10:00",
+    "teams": [
+      "Los Angeles Clippers",
+      "Los Angeles Lakers"
+    ]
+  }
+}

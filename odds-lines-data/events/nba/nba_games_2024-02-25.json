@@ -1,0 +1,83 @@
+{
+  "1": {
+    "event_id": "fb3103a4e0cd4a43d71ea54171617bba",
+    "date": "2024-02-25",
+    "time": "17:10:00",
+    "teams": [
+      "Indiana Pacers",
+      "Dallas Mavericks"
+    ]
+  },
+  "2": {
+    "event_id": "48cec047dfdba7291e10f62fb0a06af9",
+    "date": "2024-02-25",
+    "time": "18:10:00",
+    "teams": [
+      "Washington Wizards",
+      "Cleveland Cavaliers"
+    ]
+  },
+  "3": {
+    "event_id": "df17436457a25957afc408878a54294b",
+    "date": "2024-02-25",
+    "time": "19:10:00",
+    "teams": [
+      "Atlanta Hawks",
+      "Orlando Magic"
+    ]
+  },
+  "4": {
+    "event_id": "3b0efc0d6f87bdf4fa650d8421d54f30",
+    "date": "2024-02-25",
+    "time": "19:10:00",
+    "teams": [
+      "New Orleans Pelicans",
+      "Chicago Bulls"
+    ]
+  },
+  "5": {
+    "event_id": "ea1a2082b9b1e7df00100c646e47273a",
+    "date": "2024-02-25",
+    "time": "19:10:00",
+    "teams": [
+      "Golden State Warriors",
+      "Denver Nuggets"
+    ]
+  },
+  "6": {
+    "event_id": "5a5791fa09caec430929800a1443d8ff",
+    "date": "2024-02-25",
+    "time": "19:10:00",
+    "teams": [
+      "Houston Rockets",
+      "Oklahoma City Thunder"
+    ]
+  },
+  "7": {
+    "event_id": "c2591397a41ad58b1d8db1b380a3376a",
+    "date": "2024-02-25",
+    "time": "20:10:00",
+    "teams": [
+      "Utah Jazz",
+      "San Antonio Spurs"
+    ]
+  },
+  "8": {
+    "event_id": "812ab71afb0f50ea32e4afdd03b28414",
+    "date": "2024-02-25",
+    "time": "21:10:00",
+    "teams": [
+      "Portland Trail Blazers",
+      "Charlotte Hornets"
+    ]
+  },
+  "9": {
+    "event_id": "f43e568394c6589a02f80d2859b81637",
+    "date": "2024-02-25",
+    "time": "21:40:00",
+    "teams": [
+      "Los Angeles Clippers",
+      "Sacramento Kings"
+    ]
+  }
+}

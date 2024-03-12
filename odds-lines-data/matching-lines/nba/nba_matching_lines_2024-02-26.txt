@@ -1,0 +1,34 @@
+[
+  {
+    "name": "De'Aaron Fox",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -139,
+    "type": "Under",
+    "implied_probability": 58.16
+  },
+  {
+    "name": "Jaden Ivey",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Pascal Siakam",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -127,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Immanuel Quickley",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  }
+]

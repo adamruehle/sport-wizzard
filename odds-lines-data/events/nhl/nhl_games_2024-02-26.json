@@ -1,0 +1,38 @@
+{
+  "0": {
+    "event_id": "e874e76263fbe64073b353561787b43c",
+    "date": "2024-02-26",
+    "time": "19:00:00",
+    "teams": [
+      "Washington Capitals",
+      "Ottawa Senators"
+    ]
+  },
+  "1": {
+    "event_id": "f7d950f61c9a60ef536a67e770744160",
+    "date": "2024-02-26",
+    "time": "20:00:00",
+    "teams": [
+      "Dallas Stars",
+      "New York Islanders"
+    ]
+  },
+  "2": {
+    "event_id": "0084535894061363276a25aa92fb467c",
+    "date": "2024-02-26",
+    "time": "21:30:00",
+    "teams": [
+      "Edmonton Oilers",
+      "Los Angeles Kings"
+    ]
+  },
+  "3": {
+    "event_id": "4d03dbb2a4f45112f85820194e899079",
+    "date": "2024-02-26",
+    "time": "22:00:00",
+    "teams": [
+      "Seattle Kraken",
+      "Boston Bruins"
+    ]
+  }
+}

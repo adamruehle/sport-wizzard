@@ -1,0 +1,92 @@
+{
+  "0": {
+    "event_id": "4ca2f33559d32db74f8e8894a71312b5",
+    "date": "2024-02-23",
+    "time": "19:40:00",
+    "teams": [
+      "Atlanta Hawks",
+      "Toronto Raptors"
+    ]
+  },
+  "1": {
+    "event_id": "f695fc5d725bc275343391fb87ed861e",
+    "date": "2024-02-23",
+    "time": "19:40:00",
+    "teams": [
+      "Philadelphia 76ers",
+      "Cleveland Cavaliers"
+    ]
+  },
+  "2": {
+    "event_id": "59df473d0ef251265245d62b7adeb30e",
+    "date": "2024-02-23",
+    "time": "20:10:00",
+    "teams": [
+      "Houston Rockets",
+      "Phoenix Suns"
+    ]
+  },
+  "3": {
+    "event_id": "2ead771e75ea1ded364c0e9e42ab1404",
+    "date": "2024-02-23",
+    "time": "20:10:00",
+    "teams": [
+      "Memphis Grizzlies",
+      "Los Angeles Clippers"
+    ]
+  },
+  "4": {
+    "event_id": "98d566947c547e8bb26052248aa9886a",
+    "date": "2024-02-23",
+    "time": "20:10:00",
+    "teams": [
+      "New Orleans Pelicans",
+      "Miami Heat"
+    ]
+  },
+  "5": {
+    "event_id": "703e78f878fd29658600d9a1ca392817",
+    "date": "2024-02-23",
+    "time": "20:10:00",
+    "teams": [
+      "Oklahoma City Thunder",
+      "Washington Wizards"
+    ]
+  },
+  "6": {
+    "event_id": "8665e61d2754ea047780ecda1705cf09",
+    "date": "2024-02-23",
+    "time": "22:10:00",
+    "teams": [
+      "Golden State Warriors",
+      "Charlotte Hornets"
+    ]
+  },
+  "7": {
+    "event_id": "f2b4edb503dc693b7031c1230fa906c1",
+    "date": "2024-02-23",
+    "time": "22:10:00",
+    "teams": [
+      "Portland Trail Blazers",
+      "Denver Nuggets"
+    ]
+  },
+  "8": {
+    "event_id": "87b4d03c3dbdd99d2dad6c8ef097247f",
+    "date": "2024-02-23",
+    "time": "22:10:00",
+    "teams": [
+      "Minnesota Timberwolves",
+      "Milwaukee Bucks"
+    ]
+  },
+  "9": {
+    "event_id": "3b42391ffda56180c1c35a2b9d327fa4",
+    "date": "2024-02-23",
+    "time": "22:40:00",
+    "teams": [
+      "Los Angeles Lakers",
+      "San Antonio Spurs"
+    ]
+  }
+}

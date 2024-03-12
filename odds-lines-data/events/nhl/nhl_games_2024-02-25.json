@@ -1,0 +1,47 @@
+{
+  "1": {
+    "event_id": "12b0d18642019dbfc21a441bd8bc8a4b",
+    "date": "2024-02-25",
+    "time": "18:00:00",
+    "teams": [
+      "Winnipeg Jets",
+      "Arizona Coyotes"
+    ]
+  },
+  "2": {
+    "event_id": "213667ba5e0bf12914762a28a6c5d411",
+    "date": "2024-02-25",
+    "time": "18:00:00",
+    "teams": [
+      "Buffalo Sabres",
+      "Carolina Hurricanes"
+    ]
+  },
+  "3": {
+    "event_id": "2794d3bc3b20c8362fe40f9a43c50167",
+    "date": "2024-02-25",
+    "time": "18:00:00",
+    "teams": [
+      "Chicago Blackhawks",
+      "Detroit Red Wings"
+    ]
+  },
+  "4": {
+    "event_id": "5acf2a8104b54839078bf0587ba0b955",
+    "date": "2024-02-25",
+    "time": "18:00:00",
+    "teams": [
+      "Columbus Blue Jackets",
+      "New York Rangers"
+    ]
+  },
+  "5": {
+    "event_id": "5bf52cf7a83326fc19c02a6d0c89080e",
+    "date": "2024-02-25",
+    "time": "20:00:00",
+    "teams": [
+      "Anaheim Ducks",
+      "Nashville Predators"
+    ]
+  }
+}

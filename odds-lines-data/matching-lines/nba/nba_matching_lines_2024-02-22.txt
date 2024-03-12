@@ -1,0 +1,98 @@
+[
+  {
+    "name": "De'Aaron Fox",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "De'Aaron Fox",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Blake Wesley",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Draymond Green",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Kevin Huerter",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Brandin Podziemski",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Austin Reaves",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Victor Wembanyama",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Keyonte George",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Christian Braun",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Malik Monk",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Devin Vassell",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  }
+]

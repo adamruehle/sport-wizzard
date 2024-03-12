@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Jaren Jackson Jr.",
+    "proptype": "PointsReboundsAssists",
+    "line": 31.5,
+    "odds": -151.0,
+    "type": "Under",
+    "implied_probability": 60.16
+  },
+  {
+    "name": "Andrew Nembhard",
+    "proptype": "PointsReboundsAssists",
+    "line": 17.5,
+    "odds": -148.0,
+    "type": "Under",
+    "implied_probability": 59.68
+  },
+  {
+    "name": "Donovan Mitchell",
+    "proptype": "Threes",
+    "line": 3.5,
+    "odds": -142.0,
+    "type": "Under",
+    "implied_probability": 58.68
+  },
+  {
+    "name": "Herbert Jones",
+    "proptype": "PointsReboundsAssists",
+    "line": 19.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "Immanuel Quickley",
+    "proptype": "PointsReboundsAssists",
+    "line": 29.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "Domantas Sabonis",
+    "proptype": "Rebounds",
+    "line": 13.5,
+    "odds": -137.0,
+    "type": "Under",
+    "implied_probability": 57.81
+  },
+  {
+    "name": "Ivica Zubac",
+    "proptype": "Points",
+    "line": 12.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45
+  },
+  {
+    "name": "Reggie Jackson",
+    "proptype": "PointsReboundsAssists",
+    "line": 13.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Malik Monk",
+    "proptype": "Assists",
+    "line": 4.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Herbert Jones",
+    "proptype": "Assists",
+    "line": 2.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Andrew Nembhard",
+    "proptype": "Rebounds",
+    "line": 2.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Josh Green",
+    "proptype": "PointsReboundsAssists",
+    "line": 14.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Gary Trent Jr.",
+    "proptype": "PointsReboundsAssists",
+    "line": 17.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Peyton Watson",
+    "proptype": "Threes",
+    "line": 0.5,
+    "odds": -131.0,
+    "type": "Under",
+    "implied_probability": 56.71
+  },
+  {
+    "name": "Jonas Valanciunas",
+    "proptype": "Rebounds",
+    "line": 9.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Scottie Barnes",
+    "proptype": "Points",
+    "line": 20.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Ayo Dosunmu",
+    "proptype": "PointsReboundsAssists",
+    "line": 21.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Harrison Barnes",
+    "proptype": "PointsReboundsAssists",
+    "line": 14.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Keegan Murray",
+    "proptype": "PointsReboundsAssists",
+    "line": 19.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Aaron Gordon",
+    "proptype": "PointsReboundsAssists",
+    "line": 23.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Aaron Gordon",
+    "proptype": "Points",
+    "line": 14.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Christian Braun",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Austin Reaves",
+    "proptype": "PointsReboundsAssists",
+    "line": 23.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Austin Reaves",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -129.0,
+    "type": "Under",
+    "implied_probability": 56.33
+  },
+  {
+    "name": "Tyrese Haliburton",
+    "proptype": "Points",
+    "line": 19.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "RJ Barrett",
+    "proptype": "PointsReboundsAssists",
+    "line": 30.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "RJ Barrett",
+    "proptype": "Points",
+    "line": 20.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Daniel Gafford",
+    "proptype": "PointsReboundsAssists",
+    "line": 14.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Mike Conley",
+    "proptype": "PointsReboundsAssists",
+    "line": 20.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Michael Porter Jr.",
+    "proptype": "PointsReboundsAssists",
+    "line": 25.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Coby White",
+    "proptype": "PointsReboundsAssists",
+    "line": 31.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Donovan Mitchell",
+    "proptype": "PointsReboundsAssists",
+    "line": 36.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "DeMar DeRozan",
+    "proptype": "Assists",
+    "line": 4.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Ayo Dosunmu",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Ziaire Williams",
+    "proptype": "PointsReboundsAssists",
+    "line": 15.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Karl-Anthony Towns",
+    "proptype": "Points",
+    "line": 22.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Jamal Murray",
+    "proptype": "Points",
+    "line": 22.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Aaron Gordon",
+    "proptype": "Threes",
+    "line": 0.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  },
+  {
+    "name": "Anthony Davis",
+    "proptype": "PointsReboundsAssists",
+    "line": 41.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  }
+]
