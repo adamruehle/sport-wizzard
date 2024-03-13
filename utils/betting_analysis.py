@@ -4,7 +4,6 @@ import os
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.optimize import curve_fit
 
 def get_player_stats(player_name):
     player_name = player_name.replace(' ', '_')
