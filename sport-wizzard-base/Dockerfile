@@ -41,10 +41,13 @@ RUN wget -O /tmp/python.tar.xz https://www.python.org/ftp/python/3.11.3/Python-3
     && cd /usr/src/python \
     && ./configure --enable-optimizations --with-ssl \
     && make -j$(nproc) \
-    && make altinstall \
+    && make install \
     && cd / \
     && rm -rf /usr/src/python \
     && python3 -c "import ssl; print(ssl.OPENSSL_VERSION)"
+
+# Update pip
+RUN pip3 install --upgrade pip
 
 # Clean up
 RUN rm -rf /var/lib/apt/lists/*
@@ -53,5 +56,4 @@ RUN rm -rf /var/lib/apt/lists/*
 COPY requirements.txt /tmp/
 
 # Install python dependencies
-RUN pip3 install --upgrade pip \
-    pip3 install -r /tmp/requirements.txt
+RUN pip3 install -r /tmp/requirements.txt
