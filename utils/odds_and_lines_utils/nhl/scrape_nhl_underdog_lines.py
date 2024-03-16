@@ -9,8 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
 
-from zmq import has
-
 # C: Choice, O: Over, U: Under
 # Underdog has over/under, and sometimes only one choice (Over or Under)
 FIELDNAMES = ["Name", "PointsH", "PointsL", "PointsC", "ShotsH", "ShotsL", "ShotsC", "BlockedShotsH", "BlockedShotsL", "BlockedShotsC", "GoalsH", "GoalsL", "GoalsC", "AssistsH", "AssistsL", "AssistsC", "PowerPlayPointsH", "PowerPlayPointsL", "PowerPlayPointsC", "FantasyH", "FantasyL", "FantasyC", "SavesH", "SavesL", "SavesC", "GoalsAgainstH", "GoalsAgainstL", "GoalsAgainstC"]

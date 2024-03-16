@@ -9,11 +9,11 @@ WORKDIR /app
 
 # Copy the content of the local src directory to the working directory
 COPY webapp.py .
-COPY utils .
-COPY odds-lines-data .
-COPY static .
-COPY templates .
-COPY player_stats .
+COPY utils ./utils/
+COPY odds-lines-data ./odds-lines-data/
+COPY static ./static/
+COPY templates ./templates
+COPY player_stats ./player_stats/
 
 # Specify the command to run on container start
 CMD [ "python3", "./webapp.py" ]
