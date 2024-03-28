@@ -1,0 +1,38 @@
+{
+  "0": {
+    "event_id": "44a91b0dcba910631bf5b87e74dd7171",
+    "date": "2024-03-22",
+    "time": "19:00:00",
+    "teams": [
+      "Washington Capitals",
+      "Carolina Hurricanes"
+    ]
+  },
+  "1": {
+    "event_id": "4cf498bacfd5305772c0ea47d8deb80b",
+    "date": "2024-03-22",
+    "time": "20:00:00",
+    "teams": [
+      "Dallas Stars",
+      "Pittsburgh Penguins"
+    ]
+  },
+  "2": {
+    "event_id": "1c92076fe83d2c8b07ad65c05966887f",
+    "date": "2024-03-22",
+    "time": "21:00:00",
+    "teams": [
+      "Colorado Avalanche",
+      "Columbus Blue Jackets"
+    ]
+  },
+  "3": {
+    "event_id": "30344e92466b3d4f9b17597a53103a41",
+    "date": "2024-03-22",
+    "time": "22:00:00",
+    "teams": [
+      "Arizona Coyotes",
+      "Seattle Kraken"
+    ]
+  }
+}

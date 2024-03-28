@@ -1,0 +1,119 @@
+{
+  "0": {
+    "event_id": "42bec22c5610619561d686df505a3df4",
+    "date": "2024-03-19",
+    "time": "19:00:00",
+    "teams": [
+      "Boston Bruins",
+      "Ottawa Senators"
+    ]
+  },
+  "1": {
+    "event_id": "8be0add21e1a85d5e5bf5b85456d4e5a",
+    "date": "2024-03-19",
+    "time": "19:00:00",
+    "teams": [
+      "Detroit Red Wings",
+      "Columbus Blue Jackets"
+    ]
+  },
+  "2": {
+    "event_id": "f289a31606a48aa5b8d96f796b693900",
+    "date": "2024-03-19",
+    "time": "19:00:00",
+    "teams": [
+      "New Jersey Devils",
+      "Pittsburgh Penguins"
+    ]
+  },
+  "3": {
+    "event_id": "a98b0ce984fe6d193ca4a8d072a3f770",
+    "date": "2024-03-19",
+    "time": "19:00:00",
+    "teams": [
+      "New York Rangers",
+      "Winnipeg Jets"
+    ]
+  },
+  "4": {
+    "event_id": "dff5228910173f81f64ec78d0e294e83",
+    "date": "2024-03-19",
+    "time": "19:00:00",
+    "teams": [
+      "Philadelphia Flyers",
+      "Toronto Maple Leafs"
+    ]
+  },
+  "5": {
+    "event_id": "1fc3b6072cc55869fc95c311c978c7c0",
+    "date": "2024-03-19",
+    "time": "19:30:00",
+    "teams": [
+      "New York Islanders",
+      "Carolina Hurricanes"
+    ]
+  },
+  "6": {
+    "event_id": "7f124f761236ff63d1454e03a0792d84",
+    "date": "2024-03-19",
+    "time": "20:00:00",
+    "teams": [
+      "St Louis Blues",
+      "Colorado Avalanche"
+    ]
+  },
+  "7": {
+    "event_id": "238ca6c3cf61b367e63da0b4f456e74d",
+    "date": "2024-03-19",
+    "time": "20:00:00",
+    "teams": [
+      "Nashville Predators",
+      "San Jose Sharks"
+    ]
+  },
+  "8": {
+    "event_id": "a75551fe494e2b199befd304f5f41a1b",
+    "date": "2024-03-19",
+    "time": "21:00:00",
+    "teams": [
+      "Edmonton Oilers",
+      "Montr\u00e9al Canadiens"
+    ]
+  },
+  "9": {
+    "event_id": "7abbd2f342c980c8f724c063d04e2cd1",
+    "date": "2024-03-19",
+    "time": "22:00:00",
+    "teams": [
+      "Anaheim Ducks",
+      "Minnesota Wild"
+    ]
+  },
+  "10": {
+    "event_id": "16d6606ddb34511c2d0538cc961d144c",
+    "date": "2024-03-19",
+    "time": "22:00:00",
+    "teams": [
+      "Vancouver Canucks",
+      "Buffalo Sabres"
+    ]
+  },
+  "11": {
+    "event_id": "4276ee7181f10743f41ed86226ba611e",
+    "date": "2024-03-19",
+    "time": "22:00:00",
+    "teams": [
+      "Los Angeles Kings",
+      "Chicago Blackhawks"
+    ]
+  },
+  "12": {
+    "event_id": "162f6d98ee4acf17fd92d5265c7f7be6",
+    "date": "2024-03-19",
+    "time": "22:00:00",
+    "teams": [
+      "Vegas Golden Knights",
+      "Tampa Bay Lightning"
+    ]
+  }
+}

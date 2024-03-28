@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Shea Theodore",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -122.0,
+    "type": "Under",
+    "implied_probability": 54.95,
+    "multiplier": "1"
+  },
+  {
+    "name": "J.T. Miller",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -196.0,
+    "type": "Over",
+    "implied_probability": 66.22,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Pavel Buchnevich",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -164.0,
+    "type": "Over",
+    "implied_probability": 62.12,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Phillip Danault",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -154.0,
+    "type": "Over",
+    "implied_probability": 60.63,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Jonathan Marchessault",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -145.0,
+    "type": "Over",
+    "implied_probability": 59.18,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Kevin Hayes",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -143.0,
+    "type": "Over",
+    "implied_probability": 58.85,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Nicolas Roy",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -135.0,
+    "type": "Over",
+    "implied_probability": 57.45,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Kevin Fiala",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -132.0,
+    "type": "Over",
+    "implied_probability": 56.9,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "William Karlsson",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": "1"
+  },
+  {
+    "name": "J.T. Miller",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": "1"
+  }
+]

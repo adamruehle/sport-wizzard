@@ -1,4 +1,4 @@
-from utils.odds_and_lines_utils.theOddsAPI_utils import fetch_nba_odds_and_lines, fetch_nhl_odds_and_lines
+from utils.odds_and_lines_utils.theOddsAPI_utils import fetch_nba_odds_and_lines, fetch_nhl_odds_and_lines, fetch_mlb_odds_and_lines
 
 api_keys = ["a66b087a4628fe473a0d84cc8dd14533", "162e2c909f97655391e7fd98fcbaffdb", "c8e95f0047d9742ffbc3b8680892779c",
             "36aab4f1365caf620725f785b70db26a", "babd3fe7586d4ad29d3a4dabb0c74619", "35b4f6c81244ad6f6d5fcb31a2ed6186",
@@ -13,15 +13,44 @@ api_keys = ["a66b087a4628fe473a0d84cc8dd14533", "162e2c909f97655391e7fd98fcbaffd
             "45da45ad521c53974c1ac4eca5066fae", "846c38dd50fb01c78db0f00f0cc83f39", "3520471a8e8d578249b149f8bb7c95b8"]
 
 def get_nba_betonline_odds():
-    current_api_key = None
     for api_key in api_keys:
-        if fetch_nba_odds_and_lines(api_key):
-            break
-    print(current_api_key)
+        try:
+            fetch_nba_odds_and_lines(api_key)
+            return None
+        except Exception as e:
+            if str(e) == "No games found":
+                return None
+            if str(e) == "Request quota reached for the API key":
+                continue
+            else:
+                return None
+    return None
 
 def get_nhl_betonline_odds():
-    current_api_key = None
     for api_key in api_keys:
-        if fetch_nhl_odds_and_lines(api_key):
-            break
-    print(current_api_key)
+        try:
+            fetch_nhl_odds_and_lines(api_key)
+            return None
+        except Exception as e:
+            if str(e) == "No games found":
+                return None
+            if str(e) == "Request quota reached for the API key":
+                continue
+            else:
+                return None
+    return None
+
+def get_mlb_betonline_odds():
+    for api_key in api_keys:
+        try:
+            fetch_mlb_odds_and_lines(api_key)
+            return None
+        except Exception as e:
+            print(str(e))
+            if str(e) == "No games found":
+                return None
+            if str(e) == "Request quota reached for the API key":
+                continue
+            else:
+                return None
+    return None

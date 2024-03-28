@@ -1,0 +1,101 @@
+{
+  "0": {
+    "event_id": "b33f30ad5541b19794da293edee78bd3",
+    "date": "2024-03-21",
+    "time": "19:00:00",
+    "teams": [
+      "Boston Bruins",
+      "New York Rangers"
+    ]
+  },
+  "1": {
+    "event_id": "1f805fe0c16fd30d753e39ab412517cd",
+    "date": "2024-03-21",
+    "time": "19:00:00",
+    "teams": [
+      "Carolina Hurricanes",
+      "Philadelphia Flyers"
+    ]
+  },
+  "2": {
+    "event_id": "97a12a88703010863d0f2edc57df5a9a",
+    "date": "2024-03-21",
+    "time": "19:00:00",
+    "teams": [
+      "Detroit Red Wings",
+      "New York Islanders"
+    ]
+  },
+  "3": {
+    "event_id": "cd2d174f70aa0f0125e8df03a2dd012d",
+    "date": "2024-03-21",
+    "time": "19:00:00",
+    "teams": [
+      "New Jersey Devils",
+      "Winnipeg Jets"
+    ]
+  },
+  "4": {
+    "event_id": "03ba52b68b3e896872c67abaa862b2a1",
+    "date": "2024-03-21",
+    "time": "19:00:00",
+    "teams": [
+      "Ottawa Senators",
+      "St Louis Blues"
+    ]
+  },
+  "5": {
+    "event_id": "9e7cea89f4e75488ab1d709d05a23a7b",
+    "date": "2024-03-21",
+    "time": "19:30:00",
+    "teams": [
+      "Florida Panthers",
+      "Nashville Predators"
+    ]
+  },
+  "6": {
+    "event_id": "ba640725b24a98b473ea7ad7595e6b7b",
+    "date": "2024-03-21",
+    "time": "21:00:00",
+    "teams": [
+      "Edmonton Oilers",
+      "Buffalo Sabres"
+    ]
+  },
+  "7": {
+    "event_id": "3151e9a46207591dda95cd7226c1ef42",
+    "date": "2024-03-21",
+    "time": "22:00:00",
+    "teams": [
+      "Anaheim Ducks",
+      "Chicago Blackhawks"
+    ]
+  },
+  "8": {
+    "event_id": "265fbf18487a858ac240e0551293b6cb",
+    "date": "2024-03-21",
+    "time": "22:00:00",
+    "teams": [
+      "Vancouver Canucks",
+      "Montr\u00e9al Canadiens"
+    ]
+  },
+  "9": {
+    "event_id": "26c93da6204b88b49bf25c7399c3561a",
+    "date": "2024-03-21",
+    "time": "22:30:00",
+    "teams": [
+      "San Jose Sharks",
+      "Tampa Bay Lightning"
+    ]
+  },
+  "10": {
+    "event_id": "1d0efa741f451a352f445a0ce40bdda0",
+    "date": "2024-03-21",
+    "time": "22:30:00",
+    "teams": [
+      "Vegas Golden Knights",
+      "Seattle Kraken"
+    ]
+  }
+}

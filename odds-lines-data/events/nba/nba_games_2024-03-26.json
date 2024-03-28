@@ -1,0 +1,38 @@
+{
+  "0": {
+    "event_id": "2e87431523192387ff81ff8d741a0be0",
+    "date": "2024-03-26",
+    "time": "19:40:00",
+    "teams": [
+      "Miami Heat",
+      "Golden State Warriors"
+    ]
+  },
+  "1": {
+    "event_id": "886bd38845e7ea6f4e176309e542c6be",
+    "date": "2024-03-26",
+    "time": "19:40:00",
+    "teams": [
+      "Milwaukee Bucks",
+      "Los Angeles Lakers"
+    ]
+  },
+  "2": {
+    "event_id": "2e3bc94ea7d71c731889bad9d61519da",
+    "date": "2024-03-26",
+    "time": "20:10:00",
+    "teams": [
+      "New Orleans Pelicans",
+      "Oklahoma City Thunder"
+    ]
+  },
+  "3": {
+    "event_id": "87fb380f7aa6e45faabc77b765e9be26",
+    "date": "2024-03-26",
+    "time": "22:10:00",
+    "teams": [
+      "Sacramento Kings",
+      "Dallas Mavericks"
+    ]
+  }
+}

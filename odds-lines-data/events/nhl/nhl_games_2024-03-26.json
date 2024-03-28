@@ -1,0 +1,110 @@
+{
+  "0": {
+    "event_id": "e68ea688721505f9e340a01425e732cf",
+    "date": "2024-03-26",
+    "time": "19:00:00",
+    "teams": [
+      "Florida Panthers",
+      "Boston Bruins"
+    ]
+  },
+  "1": {
+    "event_id": "e6c1d2dad6a7cbe1185c564f97ff920c",
+    "date": "2024-03-26",
+    "time": "19:00:00",
+    "teams": [
+      "Pittsburgh Penguins",
+      "Carolina Hurricanes"
+    ]
+  },
+  "2": {
+    "event_id": "7649ddcd336e1a12a8259f4135360180",
+    "date": "2024-03-26",
+    "time": "19:00:00",
+    "teams": [
+      "Washington Capitals",
+      "Detroit Red Wings"
+    ]
+  },
+  "3": {
+    "event_id": "3155054ddb303037fc92da88afdb5509",
+    "date": "2024-03-26",
+    "time": "19:00:00",
+    "teams": [
+      "New York Rangers",
+      "Philadelphia Flyers"
+    ]
+  },
+  "4": {
+    "event_id": "d1f15b98e1c054ad0c73cfa280200f30",
+    "date": "2024-03-26",
+    "time": "19:30:00",
+    "teams": [
+      "Toronto Maple Leafs",
+      "New Jersey Devils"
+    ]
+  },
+  "5": {
+    "event_id": "b3a20feeb41e073460ef243ddc9b20c2",
+    "date": "2024-03-26",
+    "time": "20:00:00",
+    "teams": [
+      "Winnipeg Jets",
+      "Edmonton Oilers"
+    ]
+  },
+  "6": {
+    "event_id": "7687e7cbdb2cd554b0e010203f54f6e7",
+    "date": "2024-03-26",
+    "time": "20:00:00",
+    "teams": [
+      "Nashville Predators",
+      "Vegas Golden Knights"
+    ]
+  },
+  "7": {
+    "event_id": "bc3700e6cab939c79f3b8bb94b3319a3",
+    "date": "2024-03-26",
+    "time": "20:30:00",
+    "teams": [
+      "Chicago Blackhawks",
+      "Calgary Flames"
+    ]
+  },
+  "8": {
+    "event_id": "e5e12b53bda84093e0f0c7463245657e",
+    "date": "2024-03-26",
+    "time": "21:00:00",
+    "teams": [
+      "Colorado Avalanche",
+      "Montr\u00e9al Canadiens"
+    ]
+  },
+  "9": {
+    "event_id": "0e69213b86179a316d5ff07156473587",
+    "date": "2024-03-26",
+    "time": "22:00:00",
+    "teams": [
+      "Seattle Kraken",
+      "Anaheim Ducks"
+    ]
+  },
+  "10": {
+    "event_id": "1673b895b79a5c7611871fed3953659d",
+    "date": "2024-03-26",
+    "time": "22:00:00",
+    "teams": [
+      "Arizona Coyotes",
+      "Columbus Blue Jackets"
+    ]
+  },
+  "11": {
+    "event_id": "6085e9a627d4afe7ce05fe41b484d6e8",
+    "date": "2024-03-26",
+    "time": "22:30:00",
+    "teams": [
+      "San Jose Sharks",
+      "Dallas Stars"
+    ]
+  }
+}

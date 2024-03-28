@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="nav">
+        <h1 class="title" >MLB Wizard</h1>
+        <img src="{{ url_for('static', filename='mlb_logo.png') }}" alt="basketball" width="150" height="150">
+    </div>
+    <p>We pick it you hit it!</p>
+    
+    <div class="button-row">
+        <button class="nav-button" id="getMLBDataBtn">Fetch & Display Odds and Picks</button>
+    </div>
+    <div class="button-row">
+        <button class="nav-button" id="getMLBBetOnlineOddsBtn">Fetch BetOnline Odds</button>
+        <button class="nav-button" id="getUnderdogMLBOddsBtn">Fetch Underdog Odds</button>
+    </div>
+    <div class="button-row">
+        <button class="nav-button" id="displayMLBOddsAndPicksBtn">Display Odds and Picks</button>
+    </div>
+
+    <ul class="data-holder" id="MLBDataList"></ul>
+
+    <script>
+        $(document).ready(function() {
+            $('#getMLBDataBtn').click(function() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_mlb_data',
+                    success: function(response) {
+                        displayMLBData(response);
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#getMLBBetOnlineOddsBtn').click(function() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_mlb_betonline_odds',
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#getUnderdogMLBOddsBtn').click(function() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_mlb_underdog_lines',
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#displayMLBOddsAndPicksBtn').click(function() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/display_mlb_odds_and_picks',
+                    success: function(response) {
+                        displayMLBData(response);
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            function displayMLBData(data) {
+                $('#MLBDataList').empty(); // Clear previous data
+
+                if (data.length == 0) {
+                    $('#MLBDataList').append('<li>No matches found. Try again later</li>')
+                };
+                
+                data.forEach(function(dictionary) {
+                    var listItem = $('<li>');
+                    var subList = $('<ul class="player">');
+                    subList.append('<li class="name">' + dictionary["name"] + '<li>')
+                    var playerdata = $('<ul class="line-and-prop">')
+                    playerdata.append('<li>' + dictionary["line"] + '</li>');
+                    playerdata.append('<li>' + dictionary["proptype"] + '</li>');
+                    playerdata.append('<li>' + dictionary["type"] + '</li>');
+                    playerdata.append('<li>' + dictionary["odds"] + '</li>');
+                    subList.append(playerdata);
+                    subList.append('<li class="implied-prob">' + dictionary["implied_probability"] + "% chance of hitting..." + '</li>');
+                    
+                    listItem.append(subList);
+                    $('#MLBDataList').append(listItem);
+                });
+            }
+        });
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,47 @@
+{
+  "0": {
+    "event_id": "902f333cd3d25777474fd0e0f8920bb0",
+    "date": "2024-03-19",
+    "time": "19:10:00",
+    "teams": [
+      "Orlando Magic",
+      "Charlotte Hornets"
+    ]
+  },
+  "1": {
+    "event_id": "5dfabfa4dc9a149dc86097c203a45969",
+    "date": "2024-03-19",
+    "time": "19:10:00",
+    "teams": [
+      "Washington Wizards",
+      "Houston Rockets"
+    ]
+  },
+  "2": {
+    "event_id": "50b1a5881f285a0ad49390826218eda7",
+    "date": "2024-03-19",
+    "time": "19:40:00",
+    "teams": [
+      "Brooklyn Nets",
+      "New Orleans Pelicans"
+    ]
+  },
+  "3": {
+    "event_id": "7d9a233a01a68855e39d1ca9abad8377",
+    "date": "2024-03-19",
+    "time": "20:10:00",
+    "teams": [
+      "San Antonio Spurs",
+      "Dallas Mavericks"
+    ]
+  },
+  "4": {
+    "event_id": "ef59af2c20a0117e3b260573d6fdd3b1",
+    "date": "2024-03-19",
+    "time": "21:10:00",
+    "teams": [
+      "Minnesota Timberwolves",
+      "Denver Nuggets"
+    ]
+  }
+}

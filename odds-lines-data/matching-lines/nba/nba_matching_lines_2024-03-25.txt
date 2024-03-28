@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Dennis Schroder",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": 1
+  },
+  {
+    "name": "Miles Bridges",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 7.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Caris LeVert",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 27.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Derrick White",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Cam Thomas",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Nick Richards",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 9.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": 1
+  },
+  {
+    "name": "Isaiah Hartenstein",
+    "sport": "nba",
+    "proptype": "Points",
+    "line": 8.5,
+    "odds": -149.0,
+    "type": "Under",
+    "implied_probability": 59.84,
+    "multiplier": 1
+  },
+  {
+    "name": "Jaden Ivey",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Amen Thompson",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 9.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85,
+    "multiplier": 1
+  },
+  {
+    "name": "Amen Thompson",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 26.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": 1
+  },
+  {
+    "name": "Jalen Green",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 3.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9,
+    "multiplier": 1
+  },
+  {
+    "name": "Bradley Beal",
+    "sport": "nba",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85,
+    "multiplier": 1
+  },
+  {
+    "name": "Nikola Jokic",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 13.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85,
+    "multiplier": 1
+  },
+  {
+    "name": "Jusuf Nurkic",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 11.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": 1
+  },
+  {
+    "name": "Jamal Murray",
+    "sport": "nba",
+    "proptype": "Assists",
+    "line": 7.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9,
+    "multiplier": 1
+  },
+  {
+    "name": "Kevin Durant",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Keyonte George",
+    "sport": "nba",
+    "proptype": "Points",
+    "line": 16.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Jamal Murray",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -156.0,
+    "type": "Under",
+    "implied_probability": 60.94,
+    "multiplier": 1
+  },
+  {
+    "name": "Desmond Bane",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -132.0,
+    "type": "Under",
+    "implied_probability": 56.9,
+    "multiplier": 1
+  },
+  {
+    "name": "Keon Ellis",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14,
+    "multiplier": 1
+  },
+  {
+    "name": "Tyrese Haliburton",
+    "sport": "nba",
+    "proptype": "Assists",
+    "line": 10.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08,
+    "multiplier": 1
+  },
+  {
+    "name": "Tyrese Maxey",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Terance Mann",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08,
+    "multiplier": 1
+  }
+]

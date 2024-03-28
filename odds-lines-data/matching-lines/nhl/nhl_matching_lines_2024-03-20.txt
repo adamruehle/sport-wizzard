@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Jason Robertson",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -222.0,
+    "type": "Over",
+    "implied_probability": 68.94,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Matt Boldy",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -192.0,
+    "type": "Over",
+    "implied_probability": 65.75,
+    "multiplier": "0.75"
+  },
+  {
+    "name": "Kevin Fiala",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -192.0,
+    "type": "Over",
+    "implied_probability": 65.75,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Alex Ovechkin",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -179.0,
+    "type": "Over",
+    "implied_probability": 64.16,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Clayton Keller",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -172.0,
+    "type": "Over",
+    "implied_probability": 63.24,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Pierre-Luc Dubois",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -169.0,
+    "type": "Over",
+    "implied_probability": 62.83,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Max Domi",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 1.5,
+    "odds": -167.0,
+    "type": "Over",
+    "implied_probability": 62.55,
+    "multiplier": "0.8"
+  },
+  {
+    "name": "Nick Schmaltz",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -147.0,
+    "type": "Over",
+    "implied_probability": 59.51,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Jason Robertson",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -141.0,
+    "type": "Over",
+    "implied_probability": 58.51,
+    "multiplier": "0.85"
+  },
+  {
+    "name": "Bobby McMann",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": "1"
+  },
+  {
+    "name": "Roope Hintz",
+    "sport": "nhl",
+    "proptype": "Shots",
+    "line": 2.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": "1"
+  },
+  {
+    "name": "Drew Doughty",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": "1"
+  },
+  {
+    "name": "Anze Kopitar",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -132.0,
+    "type": "Over",
+    "implied_probability": 56.9,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Tyler Seguin",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": "1"
+  },
+  {
+    "name": "Wyatt Johnston",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -128.0,
+    "type": "Over",
+    "implied_probability": 56.14,
+    "multiplier": "0.9"
+  },
+  {
+    "name": "Trevor Moore",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -122.0,
+    "type": "Under",
+    "implied_probability": 54.95,
+    "multiplier": "1"
+  },
+  {
+    "name": "Matias Maccelli",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -120.0,
+    "type": "Under",
+    "implied_probability": 54.55,
+    "multiplier": "1"
+  },
+  {
+    "name": "Ryan Hartman",
+    "sport": "nhl",
+    "proptype": "Points",
+    "line": 0.5,
+    "odds": -120.0,
+    "type": "Under",
+    "implied_probability": 54.55,
+    "multiplier": "1"
+  }
+]

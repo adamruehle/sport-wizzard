@@ -1,0 +1,101 @@
+{
+  "0": {
+    "event_id": "fb671f3e60942f8bc5804ebca360d3f5",
+    "date": "2024-03-25",
+    "time": "19:10:00",
+    "teams": [
+      "Cleveland Cavaliers",
+      "Charlotte Hornets"
+    ]
+  },
+  "1": {
+    "event_id": "18088909b866688736db23add0be290b",
+    "date": "2024-03-25",
+    "time": "19:40:00",
+    "teams": [
+      "Atlanta Hawks",
+      "Boston Celtics"
+    ]
+  },
+  "2": {
+    "event_id": "e0378755e4c379f5a295755dae6cfcb5",
+    "date": "2024-03-25",
+    "time": "19:40:00",
+    "teams": [
+      "Toronto Raptors",
+      "Brooklyn Nets"
+    ]
+  },
+  "3": {
+    "event_id": "2bcf14b26bfaf50a4f42b2c6b360dece",
+    "date": "2024-03-25",
+    "time": "19:40:00",
+    "teams": [
+      "New York Knicks",
+      "Detroit Pistons"
+    ]
+  },
+  "4": {
+    "event_id": "95f81cb825f4546abe08d715ef874e08",
+    "date": "2024-03-25",
+    "time": "20:10:00",
+    "teams": [
+      "Chicago Bulls",
+      "Washington Wizards"
+    ]
+  },
+  "5": {
+    "event_id": "94d6c58e5eb7079bbee4cd0cbecfb2c8",
+    "date": "2024-03-25",
+    "time": "20:10:00",
+    "teams": [
+      "Houston Rockets",
+      "Portland Trail Blazers"
+    ]
+  },
+  "6": {
+    "event_id": "714e9c8085cabffc4b25c3dd85cf911c",
+    "date": "2024-03-25",
+    "time": "20:10:00",
+    "teams": [
+      "San Antonio Spurs",
+      "Phoenix Suns"
+    ]
+  },
+  "7": {
+    "event_id": "5a55753eeee7368fdca14f4842055be3",
+    "date": "2024-03-25",
+    "time": "21:10:00",
+    "teams": [
+      "Utah Jazz",
+      "Dallas Mavericks"
+    ]
+  },
+  "8": {
+    "event_id": "4e829f5696559d23eefa417720f5a75f",
+    "date": "2024-03-25",
+    "time": "21:10:00",
+    "teams": [
+      "Denver Nuggets",
+      "Memphis Grizzlies"
+    ]
+  },
+  "9": {
+    "event_id": "19fce4dac9be770b83d7f8046ac23783",
+    "date": "2024-03-25",
+    "time": "22:10:00",
+    "teams": [
+      "Sacramento Kings",
+      "Philadelphia 76ers"
+    ]
+  },
+  "10": {
+    "event_id": "b30fc941bca9dd2e67f3e2eed5f30cfb",
+    "date": "2024-03-25",
+    "time": "22:40:00",
+    "teams": [
+      "Los Angeles Clippers",
+      "Indiana Pacers"
+    ]
+  }
+}

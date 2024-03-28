@@ -2,16 +2,243 @@
 <html lang="en">
 
 <head>
-    <title>Sports Wizard</title>
+    <title>Sport Wizzard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <h1>Welcome to Sports Wizard!</h1>
-    <p>Please select a sport:</p>
-    <ul>
-        <li><a href="/nba">NBA</a></li>
-        <li><a href="/nhl">NHL</a></li>
+    <h1 class="title">SPORT WIZZARD</h1>
+    <p>We pick it you hit it!</p>
+
+    <div class="sport-links">
+        <p>View picks for selected sport:</p>
+        <ul class="logo-list">
+            <li>
+                <a href="/nba">
+                    <img src="{{ url_for('static', filename='nba_logo.png') }}" alt="basketball" width="100" height="100">
+                </a>
+            </li>
+            <li>
+                <a href="/nhl">
+                    <img src="{{ url_for('static', filename='nhl_logo.png') }}" alt="hockey sticks" width="100" height="100">
+                </a>
+            </li>
+            <li>
+                <a href="/mlb">
+                    <img src="{{ url_for('static', filename='mlb_logo.png') }}" alt="baseball" width="100" height="100">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="button-row">
+            <div class="button-group">  <button class="nav-button" id="getALLDataBtn">Get&Display Best Odds</button>
+                <div class="button-col">
+                    <button class="nav-button" id="getALLBetOnlineBtn">Get BetOnline Odds</button>
+                    <button class="nav-button" id="getALLUnderdogBtn">Get Underdog Odds</button>
+                    <button class="nav-button" id="displayALLOddsAndPicksBtn">Display Best Picks</button>
+                </div>
+            </div>
+      </div>
+
+    <div id="expectedValueContainer" class="expected-value-container hidden">
+        <button class="nav-button" id="calculateExpectedValueBtn">Calculate Expected Value</button>
+        <div style="display: flex;">
+            <input type="number" id="betAmount" placeholder="Enter Amount to Bet">
+            <label for="showMultiplierPicks" style="color: black;">
+                <input type="checkbox" id="showMultiplierPicks" checked>Display Multiplier Picks
+            </label>
+        </div>
+        <div>
+            <div id="expectedValue"></div>
+            <div id="payoutMultiplier"></div>
+            <div id="probWinCombined"></div>
+        </div>
+
+    </div>
+
+    <ul class="data-holder" id="ALLDataList">
+        <!-- List items will be dynamically added here -->
     </ul>
+
+    <script>
+        var showExpectedValue = false;
+        var showMultiplierPicks = $('#showMultiplierPicks').is(":checked");
+
+        $(document).ready(function () {
+
+            $('#getALLDataBtn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_all_data',
+                    success: function (response) {
+                        displayALLData(response);
+                        showExpectedValue = true;
+                        updateExpectedValueVisibility();
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#getALLBetOnlineBtn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_all_betonline_odds',
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#getALLUnderdogBtn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_all_underdog_lines',
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#displayALLOddsAndPicksBtn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/display_all_odds_and_picks',
+                    success: function (response) {
+                        displayALLData(response);
+                        showExpectedValue = true;
+                        updateExpectedValueVisibility();
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#showMultiplierPicks').change(function () {
+                displayALLData(); // Call the function to re-render the list
+            });
+
+            function displayALLData(data, showMultiplierPicks) {
+                $('#ALLDataList').empty(); // Clear previous data
+
+                var showMultiplierPicks = $('#showMultiplierPicks').is(':checked');
+
+
+                if (!data || showMultiplierPicks && data.length === 0) {
+                    $.ajax({
+                        type: 'POST',
+                        url: '/display_all_odds_and_picks',
+                        success: function (fetchedData) {
+                            displayALLData(fetchedData,showMultiplierPicks);
+                        },
+                        error: function (xhr, status, error) {
+                            alert('Error: ' + error);
+                        }
+                    });
+                    return;
+                }
+                data.forEach(function (dictionary) {
+                    var shouldDisplayPick = showMultiplierPicks || dictionary["multiplier"] === 1 || dictionary["multiplier"] == "1";
+
+                    if (shouldDisplayPick) {
+                        var listItem = $('<li>')
+                        var subList = $('<ul class="player">');
+                        subList.append('<li class="name">' + dictionary["name"] + '<li>')
+
+                        var playerdata = $('<ul class="line-and-prop">')
+                            var sportImage = $('<img class="sport-logo">');
+                        if (dictionary["sport"] === "nba") {
+                            sportImage.attr('src', '/static/nba_logo.png'); // Use the NBA logo image
+                        } else if (dictionary["sport"] === "nhl") {
+                            sportImage.attr('src', '/static/nhl_logo.png'); // Use the NHL logo image
+                        } else if (dictionary["sport"] === "mlb") {
+                            sportImage.attr('src', '/static/mlb_logo.png'); // Use the MLB logo image
+                        } else {
+                            // Provide a default image or handle other sports as needed
+                            sportImage.attr('src', '/static/default_logo.png');
+                        }
+                        playerdata.append('<li>').append(sportImage); // Append the image to the player data
+                        playerdata.append('<li>').append(sportImage); // Append the image to the player data
+                        playerdata.append('<li>' + dictionary["line"] + '</li>');
+                        playerdata.append('<li>' + dictionary["proptype"] + '</li>');
+                        playerdata.append('<li>' + dictionary["type"] + '</li>');
+                        playerdata.append('<li>' + dictionary["odds"] + '</li>');
+                        subList.append(playerdata);
+                        var multiplierAndProbability = $('<ul class="multiplier-and-probability">')
+                        multiplierAndProbability.append('<li>' + dictionary["implied_probability"] + "% chance of hitting..." + '</li>');
+                        multiplierAndProbability.append('<li>' + dictionary["multiplier"] + " multiplier" + '</li>')
+                        subList.append(multiplierAndProbability);
+                        
+
+                        listItem.append(subList);
+                        $('#ALLDataList').append(listItem);
+                    }
+                });
+            }
+
+            function updateExpectedValueVisibility() {
+                if (showExpectedValue) {
+                    $('#expectedValueContainer').removeClass('hidden');
+                } else {
+                    $('#expectedValueContainer').addClass('hidden');
+                }
+            }
+
+            $(document).on('click', '.player', function () {
+                $(this).closest('.player').toggleClass('selected');
+            });
+
+            $('#moveSelectedItemsToTopBtn').click(function () {
+                var selectedItems = $('#ALLDataList input[type="checkbox"]:checked').closest('li');
+                selectedItems.prependTo('#ALLDataList')
+            });
+
+            $('#calculateExpectedValueBtn').click(function () {
+                var selectedItems = $('.player.selected');
+                var probabilities = [];
+                var multipliers = [];
+                var betAmount = parseFloat($('#betAmount').val());
+
+                selectedItems.each(function () {
+                    var currentItem = $(this);
+                    var probability = parseFloat(currentItem.find('.multiplier-and-probability li:nth-child(1)').text());
+                    var multiplier = parseFloat(currentItem.find('.multiplier-and-probability li:nth-child(2)').text());
+
+                    probabilities.push(probability);
+                    multipliers.push(multiplier);
+                });
+
+                var data = {
+                    'probabilities': probabilities,
+                    'multipliers': multipliers,
+                    'betAmount': betAmount
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/calculate_expected_value',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        var expectedValue = response.expectedValue.toFixed(2);
+                        $('#expectedValue').text('Expected Value: ' + expectedValue);
+                        var payoutMultiplier = response.payoutMultiplier.toFixed(2);
+                        $('#payoutMultiplier').text('Payout Multiplier: ' + payoutMultiplier);
+                        var probWinCombined = response.probWinCombined.toFixed(2);
+                        $('#probWinCombined').text('Implied probability of winning the bet: ' + probWinCombined);
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+            updateExpectedValueVisibility();
+        });
+    </script>
 </body>
 
 </html>

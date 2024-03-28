@@ -1,0 +1,2 @@
+aws lightsail push-container-image --service-name sport-wizzard-flask-service --label sport-wizzard-flask-service --image sport-wizzard
+aws lightsail create-container-service-deployment --service-name sport-wizzard-flask-service --containers file://containers.json --public-endpoint file://public-endpoint.json

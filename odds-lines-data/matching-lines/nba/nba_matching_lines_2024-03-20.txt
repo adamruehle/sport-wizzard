@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Ochai Agbaji",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 16.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": 1
+  },
+  {
+    "name": "Malik Beasley",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Taylor Hendricks",
+    "sport": "nba",
+    "proptype": "Points",
+    "line": 10.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85,
+    "multiplier": 1
+  },
+  {
+    "name": "Shai Gilgeous-Alexander",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -135.0,
+    "type": "Under",
+    "implied_probability": 57.45,
+    "multiplier": 1
+  },
+  {
+    "name": "Isaiah Joe",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 2.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08,
+    "multiplier": 1
+  },
+  {
+    "name": "Royce O'Neale",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Desmond Bane",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 34.5,
+    "odds": -143.0,
+    "type": "Under",
+    "implied_probability": 58.85,
+    "multiplier": 1
+  },
+  {
+    "name": "Klay Thompson",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -149.0,
+    "type": "Under",
+    "implied_probability": 59.84,
+    "multiplier": 1
+  },
+  {
+    "name": "Stephen Curry",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 36.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": 1
+  },
+  {
+    "name": "Paul George",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 5.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08,
+    "multiplier": 1
+  }
+]

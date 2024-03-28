@@ -1,0 +1,20 @@
+{
+  "0": {
+    "event_id": "051fc27bcfb2011d1df4dc2aa2b94b0a",
+    "date": "2024-03-25",
+    "time": "20:00:00",
+    "teams": [
+      "St Louis Blues",
+      "Vegas Golden Knights"
+    ]
+  },
+  "1": {
+    "event_id": "1905c4ff17dd6a03a6420e97c455167c",
+    "date": "2024-03-25",
+    "time": "21:00:00",
+    "teams": [
+      "Vancouver Canucks",
+      "Los Angeles Kings"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "0": {
+    "event_id": "a49dbe5a2e4182a821d05f0a1fd43422",
+    "date": "2024-03-20",
+    "time": "19:10:00",
+    "teams": [
+      "Cleveland Cavaliers",
+      "Miami Heat"
+    ]
+  },
+  "1": {
+    "event_id": "78618603e977843dc1c7bc606e2ba479",
+    "date": "2024-03-20",
+    "time": "19:10:00",
+    "teams": [
+      "Detroit Pistons",
+      "Indiana Pacers"
+    ]
+  },
+  "2": {
+    "event_id": "def47031598222435edee8a26a792e3f",
+    "date": "2024-03-20",
+    "time": "19:40:00",
+    "teams": [
+      "Boston Celtics",
+      "Milwaukee Bucks"
+    ]
+  },
+  "3": {
+    "event_id": "54ea91772461bba4c4e2eee9ca0f5f0f",
+    "date": "2024-03-20",
+    "time": "19:40:00",
+    "teams": [
+      "Toronto Raptors",
+      "Sacramento Kings"
+    ]
+  },
+  "4": {
+    "event_id": "5ad1eddf32d48c32cfdbfc11a4867dd3",
+    "date": "2024-03-20",
+    "time": "20:10:00",
+    "teams": [
+      "Oklahoma City Thunder",
+      "Utah Jazz"
+    ]
+  },
+  "5": {
+    "event_id": "25d3b79c5b0d127ab9852b23aa8c22a2",
+    "date": "2024-03-20",
+    "time": "22:10:00",
+    "teams": [
+      "Golden State Warriors",
+      "Memphis Grizzlies"
+    ]
+  },
+  "6": {
+    "event_id": "8b31f09947b160f18b7c369a519f86ba",
+    "date": "2024-03-20",
+    "time": "22:10:00",
+    "teams": [
+      "Portland Trail Blazers",
+      "Los Angeles Clippers"
+    ]
+  },
+  "7": {
+    "event_id": "4dfb112e9e0e6acfba6b41f77d5bad4b",
+    "date": "2024-03-20",
+    "time": "22:10:00",
+    "teams": [
+      "Phoenix Suns",
+      "Philadelphia 76ers"
+    ]
+  }
+}

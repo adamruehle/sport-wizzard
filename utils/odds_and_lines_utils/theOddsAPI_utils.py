@@ -4,6 +4,15 @@ import csv
 from datetime import datetime
 import pytz
 
+class APIException(Exception):
+    pass
+
+class NoGamesFound(APIException):
+    pass
+
+class RequestQuotaReached(APIException):
+    pass
+
 def get_player_props_for_event(api_key, event_id, sport, desired_markets, bookmaker_key):
     regions = "us"
     odds_format = "american"
@@ -17,7 +26,7 @@ def get_player_props_for_event(api_key, event_id, sport, desired_markets, bookma
     # Check if the request was successful
     if response.status_code == 401:
         print("Request quota has been reached for", api_key)
-        return False, "Request quota has been reached for the API key", None
+        raise RequestQuotaReached("Request quota reached for the API key")
     # Get the JSON data from the response
     player_props_data = response.json()
     # Check if the response contains the required data
@@ -35,6 +44,22 @@ def get_player_props_for_event(api_key, event_id, sport, desired_markets, bookma
                 market_type = "Saves"
             if "points_rebounds_assists" in market_key:
                 market_type = "PointsReboundsAssists"
+            if "pitcher_strikeouts" in market_key:
+                market_type = "PitcherStrikeouts"
+            if "pitcher_hits_allowed" in market_key:
+                market_type = "HitsAllowed"
+            if "pitcher_earned_runs" in market_key:
+                market_type = "EarnedRunsAllowed"
+            if "batter_total_bases" in market_key:
+                market_type = "Bases"
+            if "batter_rbis" in market_key:
+                market_type = "RBIs"
+            if "batter_hits_runs_rbis" in market_key:
+                market_type = "HitsRunsRBIs"
+            if "batter_stolen_bases" in market_key:
+                market_type = "StolenBases"
+            if "batter_strikeouts" in market_key:
+                market_type = "BatterStrikeouts"
             market_types.append(market_type)
         for market in player_props_data['bookmakers'][0]['markets']:
             market_key = market['key']
@@ -43,6 +68,22 @@ def get_player_props_for_event(api_key, event_id, sport, desired_markets, bookma
                 market_type = "Saves"
             if "points_rebounds_assists" in market_key:
                 market_type = "PointsReboundsAssists"
+            if "pitcher_strikeouts" in market_key:
+                market_type = "PitcherStrikeouts"
+            if "pitcher_hits_allowed" in market_key:
+                market_type = "HitsAllowed"
+            if "pitcher_earned_runs" in market_key:
+                market_type = "EarnedRunsAllowed"
+            if "batter_total_bases" in market_key:
+                market_type = "Bases"
+            if "batter_rbis" in market_key:
+                market_type = "RBIs"
+            if "batter_hits_runs_rbis" in market_key:
+                market_type = "HitsRunsRBIs"
+            if "batter_stolen_bases" in market_key:
+                market_type = "StolenBases"
+            if "batter_strikeouts" in market_key:
+                market_type = "BatterStrikeouts"
             for outcome in market['outcomes']:
                 # Extract relevant data
                 player_name = outcome['description']
@@ -60,7 +101,7 @@ def get_player_props_for_event(api_key, event_id, sport, desired_markets, bookma
                 }
     except Exception as e:
         print(e)
-        return False, None, None # Return None if there is an error
+        return False, None, None # Return None if there is an error other than the request quota being reached
     return True, player_odds_dict, market_types
 
 def fetch_props_for_all_events(api_key, sport, desired_markets, bookmaker_key):
@@ -75,8 +116,10 @@ def fetch_props_for_all_events(api_key, sport, desired_markets, bookmaker_key):
     for idx, game_info in games_info.items():
         event_id = game_info.get("event_id")
         if event_id:
-
-            player_props_success, player_props, market_types = get_player_props_for_event(api_key, event_id, sport, desired_markets, bookmaker_key)
+            try:
+                player_props_success, player_props, market_types = get_player_props_for_event(api_key, event_id, sport, desired_markets, bookmaker_key)
+            except RequestQuotaReached as e:
+                raise e
             print(market_types)
             if player_props_success == False:
                 return False
@@ -89,7 +132,7 @@ def fetch_props_for_all_events(api_key, sport, desired_markets, bookmaker_key):
                 else:
                     full_player_odds_dict[player_name].update(prop_data)
             
-    with open(output_file_path, "w", newline='') as csv_file:
+    with open(output_file_path, "w", newline='', encoding='utf-8') as csv_file:
         fieldnames = ["Player"]
         for market_type in market_types:
             for over_under in ["Over", "Under", "Line"]:
@@ -118,8 +161,8 @@ def get_events(api_key, sport):
     print(url)
     response = requests.get(url)
     if response.status_code == 401: # this api key is out of uses
-        print("Request quoata has been reached for", api_key)
-        return False
+        print("Request quota has been reached for", api_key)
+        raise RequestQuotaReached("Request quota reached for the API key")
     events_data = response.json()
     eastern_timezone = pytz.timezone("US/Eastern")
     try:
@@ -148,39 +191,62 @@ def get_events(api_key, sport):
         sport = sport.split("_")[1]
         with open(f"odds-lines-data/events/{sport}/{sport}_games_{current_date}.json", "w") as json_file:
             json.dump(games, json_file, indent=2)
-
-        return True
+        if games != {}:
+            return True
+        # throw exception if no games are found
+        raise NoGamesFound("No games found")
     except Exception as e:
-        return False
+        if str(e) == "Request quota reached for the API key":
+            raise RequestQuotaReached("Request quota reached for the API key")
 
 def get_events_props_lines(api_key, sport, desired_markets, bookmaker_key):
-    fetch_events_success = get_events(api_key, sport)
+    try:
+        fetch_events_success = get_events(api_key, sport)
+    except Exception as e:
+        raise e
     if fetch_events_success:
         print("Events retrieved...")
     if not fetch_events_success:
         return False
-    current_date = datetime.now().strftime("%Y-%m-%d")
     success = fetch_props_for_all_events(api_key, sport, desired_markets, bookmaker_key)
     if success:
         print("Props and lines retrieved...")
-        return True
+        return
     return False
+
+betonline_bookmaker_key = "betonlineag"
+caesars_bookmaker_key = "williamhill_us"
 
 def fetch_nba_odds_and_lines(api_key):
     sport_nba = "basketball_nba"
-    betonline_bookmaker_key = "betonlineag"
-    caesars_bookmaker_key = "williamhill_us"
     desired_markets_nba = [
     "player_points", "player_rebounds", "player_points_rebounds_assists",
     "player_assists", "player_threes"
     ]
-    return get_events_props_lines(api_key, sport_nba, desired_markets_nba, betonline_bookmaker_key)
+    try:
+        get_events_props_lines(api_key, sport_nba, desired_markets_nba, betonline_bookmaker_key)
+    except Exception as e:
+        raise e
 
 def fetch_nhl_odds_and_lines(api_key):
     sport_nhl = "icehockey_nhl"
-    betonline_bookmaker_key = "betonlineag"
-    caesars_bookmaker_key = "williamhill_us"
     desired_markets_nhl = [
     "player_points", "player_assists", "player_shots_on_goal", "player_goal_scorer_anytime", "player_total_saves"
     ]
-    return get_events_props_lines(api_key, sport_nhl, desired_markets_nhl, betonline_bookmaker_key)
+    try:
+        get_events_props_lines(api_key, sport_nhl, desired_markets_nhl, betonline_bookmaker_key)
+    except Exception as e:
+        print(str(e))
+        raise e
+
+def fetch_mlb_odds_and_lines(api_key):
+    sport_mlb = "baseball_mlb"
+    desired_markets_mlb = [
+        "pitcher_strikeouts", "pitcher_hits_allowed", "pitcher_earned_runs", "batter_total_bases", "batter_hits",
+        "batter_runs_scored", "batter_rbis", "batter_hits_runs_rbis", "batter_singles", "batter_doubles",
+        "batter_stolen_bases", "batter_walks", "batter_strikeouts"
+    ]
+    try:
+        get_events_props_lines(api_key, sport_mlb, desired_markets_mlb, betonline_bookmaker_key)
+    except Exception as e:
+        raise e

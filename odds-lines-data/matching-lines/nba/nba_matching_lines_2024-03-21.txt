@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Keegan Murray",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -147.0,
+    "type": "Under",
+    "implied_probability": 59.51,
+    "multiplier": 1
+  },
+  {
+    "name": "Deni Avdija",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 8.5,
+    "odds": -141.0,
+    "type": "Under",
+    "implied_probability": 58.51,
+    "multiplier": 1
+  },
+  {
+    "name": "Aaron Gordon",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 6.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08,
+    "multiplier": 1
+  },
+  {
+    "name": "Joe Ingles",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 1.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "De'Aaron Fox",
+    "sport": "nba",
+    "proptype": "Threes",
+    "line": 2.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Josh Hart",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 10.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52,
+    "multiplier": 1
+  },
+  {
+    "name": "Isaiah Hartenstein",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 8.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14,
+    "multiplier": 1
+  },
+  {
+    "name": "Gary Harris",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 1.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95,
+    "multiplier": 1
+  },
+  {
+    "name": "Keon Ellis",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 12.5,
+    "odds": -125,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Keon Ellis",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Mikal Bridges",
+    "sport": "nba",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Ayo Dosunmu",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 23.5,
+    "odds": -125,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Peyton Watson",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 9.5,
+    "odds": -125,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Alec Burks",
+    "sport": "nba",
+    "proptype": "Rebounds",
+    "line": 1.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Bojan Bogdanovic",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 11.5,
+    "odds": -125,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  },
+  {
+    "name": "Bradley Beal",
+    "sport": "nba",
+    "proptype": "PointsReboundsAssists",
+    "line": 27.5,
+    "odds": -125,
+    "type": "Under",
+    "implied_probability": 55.56,
+    "multiplier": 1
+  }
+]

@@ -8,6 +8,42 @@ body {
     padding: 20px;
    
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sport-links {
+    display: flex;
+    align-items: center;
+}
+
+.sport-links p {
+    margin-right: 20px;
+}
+
+.logo-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.logo-list li {
+    margin-right: 10px;
+}
+
+.logo-list img {
+    max-width: 100px;
+    height: auto;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -83,8 +119,16 @@ button {
 }
 .button-row {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
+}
+.button-group {
+    display: flex;
+}
+.button-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 button:hover {
     cursor: pointer;
@@ -104,11 +148,21 @@ button:active {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
 .expected-value-container button {
     margin-right: 10px;
 }
 
-#expectedValue {
+#expectedValue, #payoutMultiplier, #probWinCombined{
     color: Black;
     margin-top: 10px;
+}
+
+.sport-logo {
+    width: 25px;
+    height: 25px;
 }

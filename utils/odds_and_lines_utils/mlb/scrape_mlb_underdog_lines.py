@@ -11,7 +11,7 @@ import csv
 
 # C: Choice, O: Over, U: Under
 # Underdog has over/under, and sometimes only one choice (Over or Under)
-FIELDNAMES = ["Name", "PointsH", "PointsL", "PointsC", "ShotsH", "ShotsL", "ShotsC", "BlockedShotsH", "BlockedShotsL", "BlockedShotsC", "GoalsH", "GoalsL", "GoalsC", "AssistsH", "AssistsL", "AssistsC", "PowerPlayPointsH", "PowerPlayPointsL", "PowerPlayPointsC", "FantasyH", "FantasyL", "FantasyC", "SavesH", "SavesL", "SavesC", "GoalsAgainstH", "GoalsAgainstL", "GoalsAgainstC"]
+FIELDNAMES = ["Name", "PitcherStrikeoutsC", "PitcherStrikeoutsH", "PitcherStrikeoutsL", "PitcherWalksC", "PitcherWalksH", "PitcherWalksL", "HitsAllowedC", "HitsAllowedH", "HitsAllowedL", "RunsAllowedC", "RunsAllowedH", "RunsAllowedL", "TotalBasesC", "TotalBasesH", "TotalBasesL", "HitsC", "HitsH", "HitsL", "RunsC", "RunsH", "RunsL", "RBIsC", "RBIsH", "RBIsL", "HitsRunsRBIsC", "HitsRunsRBIsH", "HitsRunsRBIsL", "SinglesC", "SinglesH", "SinglesL", "DoublesC", "DoublesH", "DoublesL", "StolenBasesC", "StolenBasesH", "StolenBasesL", "BatterStrikeoutsC", "BatterStrikeoutsH", "BatterStrikeoutsL", "BatterWalksC", "BatterWalksH", "BatterWalksL", "FantasyC", "FantasyH", "FantasyL"]
 
 def login(driver):
     username = "ugageeb@gmail.com"
@@ -27,11 +27,11 @@ def login(driver):
     sign_in_button.click()
     # wait until user is signed in to go to pick-em webpage
     signed_in_verifier_element = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a.styles__link__C_eQ8.styles__active__UQzgQ')))
-    driver.get("https://underdogfantasy.com/pick-em/higher-lower/pre-game/nhl")
+    driver.get("https://underdogfantasy.com/pick-em/higher-lower/pre-game/mlb")
 
 def write_to_csv(data):
     current_date = datetime.now().strftime("%Y-%m-%d")
-    csv_file_path = f'odds-lines-data/underdog-lines/nhl/nhl_underdog_lines_{current_date}.csv'
+    csv_file_path = f'odds-lines-data/underdog-lines/mlb/mlb_underdog_lines_{current_date}.csv'
     directory = os.path.dirname(csv_file_path)
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -58,11 +58,12 @@ def find_player_and_props(driver, player_prop_div):
     # Loop through each prop and extract the prop name and value
     for stat_line_element in stat_line_elements:
         prop = stat_line_element.find_element(By.CSS_SELECTOR, 'p').text
+        # Placeholder to continue if there is something we don't want like 1H prop in the prop name
         if "1st" in prop:
             continue
-        if "Time on Ice" in prop:
+        if "1-3" in prop:
             continue
-        if "Plus Minus" in prop:
+        if "Home" in prop:
             continue
         value, prop_name = prop.split(' ', 1)  # Split by the first space
         prop_choice_div = stat_line_element.find_element(By.CSS_SELECTOR, 'div.styles__overUnderOptionsWrapper__EMqt9')
@@ -96,7 +97,7 @@ def find_player_and_props(driver, player_prop_div):
     
     return player_name, props
 
-def scrape_nhl_lines():
+def scrape_mlb_lines():
     options = webdriver.ChromeOptions()
     # options.add_argument("--headless")
     options.add_argument("--log-level=3")
@@ -120,14 +121,26 @@ def scrape_nhl_lines():
             prop_choice = prop['prop_choice']
             value = prop['value']
             has_scorcher_button = prop['has_scorcher_button']
-            if "Power" in prop_name:
-                prop_name = "PowerPlayPoints"
+            if prop_name == "Strikeouts":
+                prop_name = "PitcherStrikeouts"
+            if prop_name == "Walks":
+                prop_name = "PitcherWalks"
+            if "Hits Allowed" in prop_name:
+                prop_name = "HitsAllowed"
+            if "Runs Allowed" in prop_name:
+                prop_name = "RunsAllowed"
+            if "Total Bases" in prop_name:
+                prop_name = "TotalBases"
+            if "Hits + Runs + RBIs" in prop_name:
+                prop_name = "HitsRunsRBIs"
+            if "Stolen Bases" in prop_name:
+                prop_name = "StolenBases"
+            if prop_name == "Batter Strikeouts":
+                prop_name = "BatterStrikeouts"
+            if prop_name == "Batter Walks":
+                prop_name = "BatterWalks"
             if "Fantasy" in prop_name:
                 prop_name = "Fantasy"
-            if "Goals" in prop_name:
-                prop_name = "GoalsAgainst"
-            if "Blocked" in prop_name:
-                prop_name = "BlockedShots"
             # Change prop names to match CSV field name
             prop_name = prop_name + prop_choice
             if has_scorcher_button:
@@ -139,5 +152,7 @@ def scrape_nhl_lines():
     write_to_csv(data)
     driver.quit()
 
+
+
 if __name__ == "__main__":
-    scrape_nhl_lines()
+    scrape_mlb_lines()

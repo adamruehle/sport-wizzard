@@ -24,7 +24,7 @@ def print_odds_between_range(player_odds_data):
     print_statements = []
     for player, odds_data in player_odds_data.items():
         for market_type, odds_value in odds_data.items():
-            if odds_value is not None and -155 <= odds_value <= -133:
+            if odds_value is not None and -155 <= odds_value <= -130:
                 line_type = market_type.replace('_Over', '_Line').replace('_Under', '_Line')
                 line_value = odds_data.get(line_type)
                 print_statements.append((player, market_type, line_value, odds_value))
@@ -41,6 +41,6 @@ player_odds_data_nhl = read_player_odds_data(csv_file_path_nhl)
 player_odds_data_nba = read_player_odds_data(csv_file_path_nba)
 
 # Print the top 20 best odds for NHL
-# print_odds_between_range(player_odds_data_nba)
+print_odds_between_range(player_odds_data_nba)
 print_odds_between_range(player_odds_data_nhl)
   

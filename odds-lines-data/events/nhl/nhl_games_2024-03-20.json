@@ -1,0 +1,29 @@
+{
+  "0": {
+    "event_id": "99c691dae63811e26816f590dff0511b",
+    "date": "2024-03-20",
+    "time": "19:30:00",
+    "teams": [
+      "Washington Capitals",
+      "Toronto Maple Leafs"
+    ]
+  },
+  "1": {
+    "event_id": "7920b74cdae42578edd501dceaf68bbc",
+    "date": "2024-03-20",
+    "time": "20:00:00",
+    "teams": [
+      "Dallas Stars",
+      "Arizona Coyotes"
+    ]
+  },
+  "2": {
+    "event_id": "46e88a47cb718a6366a83a4017474031",
+    "date": "2024-03-20",
+    "time": "22:00:00",
+    "teams": [
+      "Los Angeles Kings",
+      "Minnesota Wild"
+    ]
+  }
+}
