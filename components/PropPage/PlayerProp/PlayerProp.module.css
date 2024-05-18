@@ -1,0 +1,30 @@
+.propContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.playerInfo {
+  flex: 1;
+}
+
+.leagueInfo {
+  color: #888;
+}
+
+.propDetails {
+  flex: 2;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.details p {
+  margin: 0;
+}

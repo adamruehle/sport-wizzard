@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.matchupsContainer {
+  width: 100%;
+  height: 200px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  white-space: nowrap;
+  gap: 30px;
+}
+
+.matchup {
+  scroll-snap-align: start;
+}
+
+.matchupsContainer::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
+.arrow {
+  color: rgb(186, 186, 186);
+  font-size: 4rem;
+  height: 200px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrow:focus-visible {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}

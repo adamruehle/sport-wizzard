@@ -1,0 +1,31 @@
+.page {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dropdownContainer {
+  display: flex;
+  width: 100%;
+}
+
+.dropdownsWrapper {
+  margin-left: auto; /* Add margin to create space between the spacer and dropdowns */
+  margin-right: auto;
+}
+
+.dropdown {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dropdown:first-child {
+  margin-left: auto;
+}

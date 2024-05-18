@@ -1,0 +1,8 @@
+{
+  "flask": {
+      "image": ":sport-wizzard-flask-service.sport-wizzard-flask-service.21",
+      "ports": {
+          "3000": "HTTP"
+      }
+  }
+}

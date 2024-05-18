@@ -1,0 +1,28 @@
+.dropdownTrigger {
+  background-color: #BA0C2F; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.dropdownTrigger:hover {
+  background-color: #9A0826; /* Darker green on hover */
+}
+
+.dropdownItem {
+  list-style: none; /* remove bullets */
+  padding: 5px;
+  background-color: #BA0C2F;
+}
+
+.dropdownLink {
+  color: inherit; /* Use the same color as the other dropdown items */
+  text-decoration: none; /* Remove the underline */
+}

@@ -1,0 +1,32 @@
+.propPageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.propsContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 28.54%;
+}
+
+.columnTitles {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.propTitle {
+  margin-left: 33%;
+}
+
+.probTitle, .pickTitle {
+  margin-left: 6.77%;
+}

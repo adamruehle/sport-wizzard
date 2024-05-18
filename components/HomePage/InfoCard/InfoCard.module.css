@@ -1,0 +1,21 @@
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border: 5px solid #0ADFB9;
+  border-radius: 20px;
+  width: 67vw;
+}
+
+.cardTitle {
+  padding-top: 10px;
+  font-size: 2.5rem;
+}
+
+.cardDescription {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  padding-bottom: 12px;
+} 

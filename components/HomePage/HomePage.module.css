@@ -1,0 +1,152 @@
+.topContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.header1 {
+  padding: 0px;
+  font-size: 72px;
+  margin: 0;
+}
+
+.header1Description {
+  color: #0021CC;
+  font-weight: 600;
+  font-size: 38px;
+  text-align: center;
+}
+
+.makeSmarterBetsDiv {
+  margin-top: 100px;
+  margin-left: 10%;
+  width: 633px;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #0ADFB9;
+}
+
+.lightbulbContainer {
+  position: relative;
+  margin-left: 15%;
+}
+
+.lightbulb {
+  width: 330px;
+  height: 470px;
+}
+
+.infoCardsContainer {
+  margin-top: 50px;
+  width: 100%;
+  height: 750px;
+}
+
+.infoCard1, .infoCard3 {
+  margin-left: 10.1%;
+}
+
+.infoCard2, .infoCard4 {
+  margin-left: 25%;
+}
+
+.ladder1, .ladder2 {
+  width: 20%;
+  border-left: 5px solid #0ADFB9;
+  border-right: 5px solid #0ADFB9;
+  border-top: none;
+  border-bottom: none;
+  height: 50px;
+}
+
+.ladder1 {
+  margin-left: 38.33%;
+}
+
+.ladder2 {
+  margin-left: 48.33%;
+}
+
+.offersContainer, .offers {
+  background-color: #0ADFB9;
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.offersContainer {
+  flex-direction: column;
+}
+
+.offers {
+  flex-direction: row;
+}
+
+.offersTitle {
+  padding-top: 50px;
+  width: 100%;
+  color: black;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.offersTitleDescription {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.offers {
+  padding-top: 50px;
+}
+
+.offer1 {
+  padding-left: 3.646%;
+}
+
+.offer2, .offer3 {
+  padding-left: 7.291%;
+}
+
+.offer3 {
+  padding-right: 7.291%;
+}
+
+.faqContainer {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  padding-left: 16.666%;
+  padding-right: 16.666%;
+  text-align: center;
+}
+
+.faqTitle {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.faqLine {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.faq {
+  width: 100%;
+}
