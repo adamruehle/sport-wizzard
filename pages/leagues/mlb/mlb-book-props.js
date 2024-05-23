@@ -1,5 +1,5 @@
 
-import PropPage from '@/components/PropPage/PropPage';
+import PropPage from '@/components/BookPropPage/BookPropPage';
 
 export default function MlbProps() {
   return (

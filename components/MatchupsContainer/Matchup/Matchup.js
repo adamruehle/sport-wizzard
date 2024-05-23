@@ -8,25 +8,28 @@ export default function MatchupsContainer({ matchup }) {
   return (
     <div className={styles.matchupContainer}>
       <div className={styles.matchup}>
-        <Image className={styles.teamImage} src={`/images/teams/${matchup.league}/${matchup.team1}.webp`} alt="Team1" width={70} height={70} />
+        <Image className={styles.teamImage} src={`/images/teams/${matchup.league}/${matchup.awayTeam}.webp`} alt="awayTeam" width={70} height={70} />
         <div className={styles.team}>
-          {matchup.team1}
+          {matchup.awayTeam}
         </div>
         <div className={styles.teamRecord}>
-          {matchup.team1Record}
+          {matchup.awayTeamRecord}
         </div>
       </div>
       <div className={styles.matchup}>
-        <Image className={styles.teamImage} src={`/images/teams/${matchup.league}/${matchup.team2}.webp`} alt="Team2" width={70} height={70} />
+        <Image className={styles.teamImage} src={`/images/teams/${matchup.league}/${matchup.homeTeam}.webp`} alt="homeTeam" width={70} height={70} />
         <div className={styles.team}>
-          {matchup.team2}
+          {matchup.homeTeam}
         </div>
         <div className={styles.teamRecord}>
-          {matchup.team2Record}
+          {matchup.homeTeamRecord}
         </div>
       </div>
       <div className={styles.matchupTime}>
         {matchup.time}
+      </div>
+      <div className={styles.odds}>
+        {matchup.oddsLine}
       </div>
     </div>
   )

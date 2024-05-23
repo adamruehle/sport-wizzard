@@ -41,26 +41,26 @@ const Header = () => {
             <div className={styles.linkTitle}>Sport Wizzard</div>
           </Link>
           <div className={styles['navLinks']}>
-            <Link className={styles.link} href="/leagues/nba-props">NBA</Link>
-            <Link className={styles.link} href="/leagues/mlb-props">MLB</Link>
-            <Link className={styles.link} href="/leagues/nhl-props">NHL</Link>
-            <Link className={styles.link} href="/leagues/nfl-props">NFL</Link>
-            <Link className={styles.link} href="/leagues/soccer-props">Soccer</Link>
-            <Link className={styles.link} href="/leagues/golf-props">Golf</Link>
-            <Link className={styles.link} href="/leagues/wnba-props">WNBA</Link>
+            <Link className={styles.link} href="/leagues/nba/nba-book-props">NBA</Link>
+            <Link className={styles.link} href="/leagues/mlb/mlb-book-props">MLB</Link>
+            <Link className={styles.link} href="/leagues/nhl/nhl-book-props">NHL</Link>
+            <Link className={styles.link} href="/leagues/nfl/nfl-book-props">NFL</Link>
+            <Link className={styles.link} href="/leagues/soccer/soccer-book-props">Soccer</Link>
+            <Link className={styles.link} href="/leagues/golf/golf-book-props">Golf</Link>
+            <Link className={styles.link} href="/leagues/wnba/wnba-book-props">WNBA</Link>
             <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
               <DropdownTrigger className={styles.dropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>
                 <Button className={styles.dropdownTrigger}>•••</Button>
               </DropdownTrigger>
               <DropdownMenu aria-label="Leagues" className={styles.dropdownMenu} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <DropdownItem className={styles.dropdownItem}>
-                  <Link href="/ncaab" className={styles.dropdownLink}>NCAAB</Link>
+                  <Link href="/leagues/ncaab/ncaab-book-props" className={styles.dropdownLink}>NCAAB</Link>
                 </DropdownItem>
                 <DropdownItem className={styles.dropdownItem}>
-                  <Link href="/ncaaf" className={styles.dropdownLink}>NCAAF</Link>
+                  <Link href="leagues/ncaaf/ncaaf-book-props" className={styles.dropdownLink}>NCAAF</Link>
                 </DropdownItem>
                 <DropdownItem className={styles.dropdownItem}>
-                  <Link href="/mma" className={styles.dropdownLink}>MMA</Link>
+                  <Link href="leagues/mma/mma-book-props" className={styles.dropdownLink}>MMA</Link>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from './Layout.module.css';
 import Header from '@/components/Header/Header';
 import BaseDropdownMenu from '@/components/BaseDropdownMenu/BaseDropdownMenu';
-import PlayerPropsContainer from '@/components/PropPage/PlayerPropsContainer/PlayerPropsContainer';
+import PlayerPropsContainer from '@/components/BookPropPage/PlayerPropsContainer/PlayerPropsContainer';
 
 const Layout = ({ children, leagues, league, fantasyApps, books, positions, props, matchups }) => {
   const defaultProperties = ['*'];
