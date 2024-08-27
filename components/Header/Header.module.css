@@ -30,6 +30,11 @@
   margin-left: 23px;
 }
 
+.link:hover {
+  color:#0ADFB9;
+  border-bottom: solid 2px #0ADFB9;
+  transition: all 0.5s
+}
 .nba {
   margin-left: 50px;
 }

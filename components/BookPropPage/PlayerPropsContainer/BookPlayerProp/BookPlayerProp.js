@@ -6,31 +6,31 @@ import Image from 'next/image';
 export default function PlayerProp({ playerProp }) {
   const {player, league, team, date, time, homeTeam, awayTeam, prop, line, odds, type, impliedProbability, book, fantasyApp} = playerProp;
   return (
-    <div className={styles.propContainer}>
-      <div className={styles.playerPictureAndDescriptionContainer}>
+    <div className={`${styles.propContainer} items-center`}>
+      <div className={`flex items-center`}>
         <Image src="/images/players/nba/JalenWilliams.webp" alt="player" width={80} height={80} />
-        <div className={styles.playerAndGameDescription}>
-          <div className={styles.matchup}>{homeTeam} at {awayTeam}</div>
-          <div className={styles.player}>{player}</div>
-          <div className={styles.playerTeamAndPositionContainer}>
-            <div className={styles.team}>{team}</div>
-            {/* <span className={styles.position}> - {position}</span> */}
-          </div>
-          <div className={styles.time}>{date} {time}</div>
+        
+        <div className='flex flex-col'>
+
+        
+        <div className={`${styles.player} mx-5 font-bold text-xl md:text-xl lg:text-2xl`}>{player}</div>
+        {odds < -138 ? <Image src="/fire-gif.gif"  unoptimized layout="intrinsic" width={40} height={40} className="text-2xl mx-2"/> : <div></div> }
         </div>
       </div>
-      <div className={styles.prop}>
-        <div className={styles.prop}>{prop}</div>
-        <div className={styles.line}>{line}</div>
+      
+      <div className={styles.bottomAlign}>
+        <div >{prop}</div>
+        <div>{line}</div>
+        <div>{type}</div>
       </div>
-      <div className={styles.odds}>
-        <div className={styles.odds}>{odds}</div>
-        <div className={styles.impliedProbability}>{impliedProbability}</div>
+      <div className={styles.bottomAlign} >
+        <div >{odds}</div>
+        <div >{impliedProbability}</div>
       </div>
-      <div className={styles.pick}>
-        <div className={styles.book}>{book}</div>
-        <div className={styles.fantasyApp}>{fantasyApp}</div>
-        <div className={styles.pick}>{type}</div>
+      <div className={styles.bottomAlign}>
+        <div>{book}</div>
+        <div>{fantasyApp}</div>
+        
       </div>
     </div>
   );
