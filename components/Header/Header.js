@@ -35,10 +35,10 @@ const Header = () => {
 
   return (
     <header>
-      <nav className={styles.stickyHeader}>
+      <nav className={`${styles.stickyHeader}`}>
         <div className={styles.headerContent}>
           <Link href="/" style={{ textDecoration: 'none' }}>
-            <div className={styles.linkTitle}>Sport Wizzard</div>
+            <div className="text-whitesmoke mt-8 font-bold text-3xl md:text-4xl lg:text-5xl no-underline">Sport Wizzard</div>
           </Link>
           <div className={styles['navLinks']}>
             <Link className={styles.link} href="/leagues/nba/nba-book-props">NBA</Link>

@@ -1,6 +1,6 @@
-.propPageContainer {
-  display: flex;
-  flex-direction: column;
+.bookPageContainer {
+  grid-template-columns: 2.3fr 1fr;
+  margin: 0 20px
 }
 
 .title {
@@ -29,4 +29,8 @@
 
 .probTitle, .pickTitle {
   margin-left: 6.77%;
+}
+
+@media (max-width: 870px) {
+  
 }

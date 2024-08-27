@@ -8,15 +8,27 @@ import FAQ from './FAQ/FAQ';
 const HomePage = () => {
   return (
     <main>
-      <div className={styles.topContainer}>
-        <div className={styles.makeSmarterBetsDiv}>
-          <span className={styles.header1}>Make <span className={styles.underline}>Smarter</span> Bets</span>
-          <p className={styles.header1Description}>Turn your sports knowledge into winning bets with data-driven insights!</p>
-        </div>
-        <div className={styles.lightbulbContainer}>
-          <Image className={styles.lightbulb} src="/lightbulb.png" alt="lightbulb" width={330} height={470}/>
+      <div className="flex flex-col md:flex-row m-8 items-center">
+      <div className="flex flex-col mx-5 flex-grow text-center md:text-left">
+        <span className={`text-4xl md:text-5xl lg:text-6xl`}>
+          Make <span className={styles.underline}>Smarter</span> Bets
+        </span>
+        <p className="text-customBlue font-semibold my-10 text-xl md:text-2xl lg:text-3xl">
+          Turn your sports knowledge into winning bets with data-driven insights!
+        </p>
+      </div>
+
+      <div className="relative flex-shrink-0 w-full md:w-1/2 lg:w-1/3">
+        <div className="relative w-full h-64 md:h-80 lg:h-96">
+          <Image
+            layout="fill"
+            objectFit="contain"
+            src="/lightbulb.png"
+            alt="lightbulb"
+          />
         </div>
       </div>
+    </div>
       <div className={styles.infoCardsContainer}>
         <div className={styles.infoCard1}>
           <InfoCard

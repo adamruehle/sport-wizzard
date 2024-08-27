@@ -6,6 +6,14 @@ First, install requirements
 npm install
 ```
 
+Second, you must provide AWS credentials and Bucket Name in .env
+
+```
+AWS_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY=
+S3_BUCKET_NAME=
+```
+
 Then, run dev server
 
 ```bash

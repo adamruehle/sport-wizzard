@@ -72,17 +72,10 @@ export default function PropPage({ league }) {
   return (
     <main>
       <Header />
-      <div className={styles.propPageContainer}>
+
+      <div className={`flex flex-col ${styles.bookPageContainer}`}>
+        <PlayerPropsContainer  playerProps={playerProps}/>
         <MatchupsContainer matchups={matchups}/>
-        <div className={styles.propsContainer}>
-          <span className={styles.title}>Best MLB player props from {currentDate}</span>
-          <div className={styles.columnTitles}>
-            <span className={styles.propTitle}>PROP</span>
-            <span className={styles.probTitle}>Probability</span>
-            <span className={styles.pickTitle}>PICK</span>
-          </div>
-          <PlayerPropsContainer playerProps={playerProps}/>
-        </div>
       </div>
     </main>
   )
