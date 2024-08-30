@@ -45,9 +45,9 @@ const Header = () => {
             <Link className={styles.link} href="/leagues/mlb/mlb-book-props">MLB</Link>
             <Link className={styles.link} href="/leagues/nhl/nhl-book-props">NHL</Link>
             <Link className={styles.link} href="/leagues/nfl/nfl-book-props">NFL</Link>
+            <Link className={styles.link} href="/leagues/wnba/wnba-book-props">WNBA</Link>
             <Link className={styles.link} href="/leagues/soccer/soccer-book-props">Soccer</Link>
             <Link className={styles.link} href="/leagues/golf/golf-book-props">Golf</Link>
-            <Link className={styles.link} href="/leagues/wnba/wnba-book-props">WNBA</Link>
             <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
               <DropdownTrigger className={styles.dropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>
                 <Button className={styles.dropdownTrigger}>•••</Button>
