@@ -14,6 +14,7 @@ export default async function handler(req, res) {
   });
 
   const league = req.query.league;
+  console.log(league)
   const date = new Date();
   const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`; // Get today's date
 
@@ -28,7 +29,8 @@ export default async function handler(req, res) {
     const bodyString = await streamToString(response.Body);
 
     const allProps = JSON.parse(bodyString);
-    const leagueProps = allProps.filter(prop => prop.league === league); 
+    const leagueProps = allProps.filter(prop => prop.league === league);
+    console.log(leagueProps)
     res.status(200).json(leagueProps); 
   } catch (err) {
     console.error("Error fetching or filtering props:", err);
