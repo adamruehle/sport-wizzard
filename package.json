@@ -11,14 +11,17 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.582.0",
     "@nextui-org/react": "^2.3.6",
-    "autoprefixer": "^10.4.20",
     "next": "14.2.3",
-    "postcss": "^8.4.41",
     "react": "^18",
     "react-dom": "^18",
     "react-scroll-snap": "^1.0.0",
     "reactstrap": "^9.2.2",
     "scroll-snap": "^4.0.5",
+    "sport-wizzard": "file:",
     "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41"
   }
 }

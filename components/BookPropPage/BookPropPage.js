@@ -69,14 +69,25 @@ export default function PropPage({ league }) {
     year: 'numeric',
   });
 
+  const noData = matchups.length === 0 && playerProps.length === 0;
+
   return (
     <main>
       <Header />
 
       <div className={`flex flex-col ${styles.bookPageContainer}`}>
-        <PlayerPropsContainer  playerProps={playerProps}/>
-        <MatchupsContainer matchups={matchups}/>
+        {noData ? (
+          <div className="flex flex-col items-center justify-center h-full">
+            <h2>No games or player props available today</h2>
+            <p>Check back later for updated matchups and player props.</p>
+          </div>
+        ) : (
+          <>
+            <PlayerPropsContainer playerProps={playerProps} />
+            <MatchupsContainer matchups={matchups} />
+          </>
+        )}
       </div>
     </main>
-  )
+  );
 }

@@ -45,9 +45,9 @@ const Header = () => {
             <Link className={styles.link} href="/leagues/mlb/mlb-book-props">MLB</Link>
             <Link className={styles.link} href="/leagues/nhl/nhl-book-props">NHL</Link>
             <Link className={styles.link} href="/leagues/nfl/nfl-book-props">NFL</Link>
-            <Link className={styles.link} href="/leagues/soccer/soccer-book-props">Soccer</Link>
-            <Link className={styles.link} href="/leagues/golf/golf-book-props">Golf</Link>
             <Link className={styles.link} href="/leagues/wnba/wnba-book-props">WNBA</Link>
+            <Link className={styles.link} href="/leagues/ncaaf/ncaaf-book-props">NCAAF</Link>
+            <Link className={styles.link} href="/leagues/soccer/soccer-book-props">Soccer</Link>
             <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
               <DropdownTrigger className={styles.dropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>
                 <Button className={styles.dropdownTrigger}>•••</Button>
@@ -57,10 +57,10 @@ const Header = () => {
                   <Link href="/leagues/ncaab/ncaab-book-props" className={styles.dropdownLink}>NCAAB</Link>
                 </DropdownItem>
                 <DropdownItem className={styles.dropdownItem}>
-                  <Link href="leagues/ncaaf/ncaaf-book-props" className={styles.dropdownLink}>NCAAF</Link>
+                  <Link href="leagues/golf/golf-book-props" className={styles.dropdownLink}>Golf</Link>
                 </DropdownItem>
                 <DropdownItem className={styles.dropdownItem}>
-                  <Link href="leagues/mma/mma-book-props" className={styles.dropdownLink}>MMA</Link>
+                  <Link href="leagues/golf/golf-book-props" className={styles.dropdownLink}>MMA</Link>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
