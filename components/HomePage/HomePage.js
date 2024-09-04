@@ -13,7 +13,7 @@ const HomePage = () => {
         <span className={`text-4xl md:text-5xl lg:text-6xl`}>
           Make <span className={styles.underline}>Smarter</span> Bets
         </span>
-        <p className="text-customBlue font-semibold my-10 text-xl md:text-2xl lg:text-3xl">
+        <p className={`text-customBlue font-semibold my-10 text-xl md:text-2xl lg:text-3xl ${styles.subHead}`}>
           Turn your sports knowledge into winning bets with data-driven insights!
         </p>
       </div>

@@ -40,7 +40,7 @@ const Header = () => {
           <Link href="/" style={{ textDecoration: 'none' }}>
             <div className="text-whitesmoke mt-8 font-bold text-3xl md:text-4xl lg:text-5xl no-underline">Sport Wizzard</div>
           </Link>
-          <div className={styles['navLinks']}>
+          <div className={styles.navLinks}>
             <Link className={styles.link} href="/leagues/nba/nba-book-props">NBA</Link>
             <Link className={styles.link} href="/leagues/mlb/mlb-book-props">MLB</Link>
             <Link className={styles.link} href="/leagues/nhl/nhl-book-props">NHL</Link>
@@ -48,7 +48,7 @@ const Header = () => {
             <Link className={styles.link} href="/leagues/wnba/wnba-book-props">WNBA</Link>
             <Link className={styles.link} href="/leagues/ncaaf/ncaaf-book-props">NCAAF</Link>
             <Link className={styles.link} href="/leagues/soccer/soccer-book-props">Soccer</Link>
-            <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
+            {/* <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
               <DropdownTrigger className={styles.dropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>
                 <Button className={styles.dropdownTrigger}>•••</Button>
               </DropdownTrigger>
@@ -63,7 +63,7 @@ const Header = () => {
                   <Link href="leagues/golf/golf-book-props" className={styles.dropdownLink}>MMA</Link>
                 </DropdownItem>
               </DropdownMenu>
-            </Dropdown>
+            </Dropdown> */}
           </div>
         </div>
         <hr className={styles['horizontalLine']} />

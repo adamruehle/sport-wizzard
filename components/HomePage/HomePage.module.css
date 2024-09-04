@@ -1,22 +1,12 @@
-.topContainer {
-  position: relative;
-  width: 100%;
-  display: flex;
-}
 
+
+.subHead {
+  color:#0ADFB9
+}
 .header1 {
   padding: 0px;
   font-size: 72px;
   margin: 0;
-}
-
-.header1Description {
-  color: #0021CC;
-  font-weight: 600;
-  font-size: 38px;
-  margin-top: 3rem;
-  margin-right: 10rem;
-  text-align: center;
 }
 
 .makeSmarterBetsDiv {

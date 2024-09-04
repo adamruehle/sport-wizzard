@@ -1,12 +1,14 @@
+/* Default styles */
 .stickyHeader {
   background-color: transparent;
   width: 100%;
   height: 128px;
+  overflow: hidden; /* Prevent vertical overflow */
 }
 
 .headerContent {
   margin-left: 5%;
-  display: flex;
+  
 }
 
 .linkTitle {
@@ -14,84 +16,49 @@
   color: whitesmoke;
   margin-top: 32px;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 48px; /* Ensure units are specified */
 }
 
 .navLinks {
-  margin-top: 51px;
+  display: flex; /* Align items horizontally */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping */
+  height: 50px; /* Fixed height for the navbar */
+
+  align-items: center; /* Center items vertically */
+
 }
+
+.navLinks::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.navLinks {
+  scrollbar-width: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for IE and Edge */
+.navLinks {
+  -ms-overflow-style: none; /* Hides the scrollbar */
+}
+
+
 
 .link {
   font-weight: 500;
-  font-size: 28;
+  font-size: 20px; /* Font size with units */
   cursor: pointer;
   text-decoration: none;
-  color: whitesmoke;
-  margin-left: 23px;
+  color: hsl(0, 0%, 96%);
+  margin-right: 20px;
+  white-space: nowrap; /* Prevent wrapping */
 }
 
 .link:hover {
-  color:#0ADFB9;
+  color: #0ADFB9;
   border-bottom: solid 2px #0ADFB9;
-  transition: all 0.5s
-}
-.nba {
-  margin-left: 50px;
-}
-
-.dropdown, .dropdown[data-focus="true"] {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-
-.dropdownTrigger, .dropdownTrigger[data-focus="true"] {
-  margin-left: 23px;
-  background-color: inherit;
-  border: none !important; /* Remove border */
-  outline: none !important;
-  box-shadow: none !important;
-  color: white; /* White text */
-  text-align: center; /* Centered text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dropdownTrigger:focus {
-  outline: none; /* Remove default outline */
-}
-
-.dropdownTrigger *:focus {
-  outline: none; /* Remove outline from any focused child elements */
-}
-
-.dropdownMenu {
-  background-color: #0A0D14;
-  padding: 7px;
-  border-radius: 10px;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
-.dropdownItem {
-  margin-top: 2px;
-  text-align: center;
-  border: none !important; /* Remove border */
-  outline: none !important;
-  box-shadow: none !important;
-  font-weight: 500;
-  font-size: 28;
-  cursor: pointer;
-  text-decoration: none;
-  color: whitesmoke;
-  list-style-type: none;
-}
-
-.dropdownLink {
-  color: inherit;
-  text-decoration: none;
+  transition: all 0.5s;
 }
 
 .horizontalLine {
@@ -99,5 +66,6 @@
   border-color: #0ADFB9;
   margin-left: 3%;
   margin-right: 3%;
-  margin-top: 10px;
+
 }
+
