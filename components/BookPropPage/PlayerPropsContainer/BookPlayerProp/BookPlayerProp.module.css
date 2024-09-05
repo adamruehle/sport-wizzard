@@ -32,6 +32,7 @@
 @media (max-width: 400px) {
   .propContainer {
     display: flex;
+    font-weight: 700;
     flex-direction: column;
     font-size: x-small;
     width: 100%;

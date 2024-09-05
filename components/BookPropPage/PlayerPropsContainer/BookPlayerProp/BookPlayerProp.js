@@ -14,7 +14,7 @@ export default function PlayerProp({ playerProp }) {
         {odds < -138 ? <Image src="/fire-gif.gif"  unoptimized layout="intrinsic" width={40} height={40} className="text-2xl mx-2"/> : <div></div> }
         </div>
       </div>
-      <div className={`font-bold sm:font-normal ${styles.metaDataContainer}`}>
+      <div className={`font-normal ${styles.metaDataContainer}`}>
         <div className={styles.bottomAlign}>
           <div >{prop}</div>
           <div>{type} {line}</div>
