@@ -28,9 +28,7 @@
   width: 100%;
   align-items: center;
 }
-.player {
-  margin-right: 20px;
-}
+
 @media (max-width: 400px) {
   .propContainer {
     display: flex;

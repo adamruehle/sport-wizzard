@@ -7,7 +7,9 @@
 }
 
 .headerContent {
-  margin-left: 5%;
+
+  margin: 1.75rem;
+  margin-top: 1.0rem;
   
 }
 
@@ -64,8 +66,7 @@
 .horizontalLine {
   height: 2px;
   border-color: #0ADFB9;
-  margin-left: 3%;
-  margin-right: 3%;
-
+  
+  
 }
 

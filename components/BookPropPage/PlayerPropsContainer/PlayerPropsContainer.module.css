@@ -1,9 +1,18 @@
 .headerGrid {
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
+.headerItem {
+  text-align: center;
+}
+.headerItem:first-of-type {
+  text-align: left;
+}
+.headerItem:last-of-type {
+  text-align: right;
+}
 @media (max-width: 400px) {
   
   .headerGrid {

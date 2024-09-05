@@ -13,13 +13,13 @@ const HomePage = () => {
         <span className={`text-4xl md:text-5xl lg:text-6xl`}>
           Make <span className={styles.underline}>Smarter</span> Bets
         </span>
-        <p className={`text-customBlue font-semibold my-10 text-xl md:text-2xl lg:text-3xl ${styles.subHead}`}>
+        <p className={`text-customBlue font-semibold my-10 text-xl md:text-2xl  ${styles.subHead}`}>
           Turn your sports knowledge into winning bets with data-driven insights!
         </p>
       </div>
 
-      <div className="relative flex-shrink-0 w-full md:w-1/2 lg:w-1/3">
-        <div className="relative w-full h-64 md:h-80 lg:h-96">
+      <div className="relative flex-shrink-0 w-full md:w-1/2 ">
+        <div className="relative w-full h-64 md:h-80 ">
           <Image
             layout="fill"
             objectFit="contain"

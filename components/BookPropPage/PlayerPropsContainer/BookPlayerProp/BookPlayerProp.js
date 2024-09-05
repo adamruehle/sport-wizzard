@@ -10,7 +10,7 @@ export default function PlayerProp({ playerProp }) {
       <div className={`${styles.nameContainer} flex items-center`}>
         <Image src="/images/players/nba/JalenWilliams.webp" alt="player" width={80} height={80} />
         <div className='flex flex-col'>
-        <div className={`${styles.player} mx-5 font-bold text-md sm:text-2xl`}>{player}</div>
+        <div className={`${styles.player} font-bold text-md sm:text-2xl`}>{player}</div>
         {odds < -138 ? <Image src="/fire-gif.gif"  unoptimized layout="intrinsic" width={40} height={40} className="text-2xl mx-2"/> : <div></div> }
         </div>
       </div>
