@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 
   const params = {
     Bucket: process.env.S3_BUCKET_NAME,
-    Key: `games/${formattedDate}.json`,
+    Key: `games/2024-08-26.json`,
   };
 
   try {

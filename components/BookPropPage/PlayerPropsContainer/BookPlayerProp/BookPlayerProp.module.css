@@ -1,21 +1,53 @@
 .propContainer {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   width: 100%;
   padding-bottom: 5px;
   border-bottom: 2px solid #0ADFB9;
 
 }
 
-.picNameContainer {
-  grid-template-columns: 1fr 2fr;
+.metaDataContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.bottomAlign:first-of-type {
+  text-align: left;
+}
+.bottomAlign:last-of-type {
+  text-align: right;
+}
+
+
+.nameContainer {
+  display: flex;
+  width: 100%;
   align-items: center;
 }
 .player {
   margin-right: 20px;
 }
-@media (max-width: 870px) {
+@media (max-width: 400px) {
+  .propContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0ADFB9;
   
+  }
+
+  .nameContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.75em !important;
+    text-align: right;
+  }
 }
 
 

@@ -9,7 +9,7 @@ export default function MatchupsContainer({ matchups }) {
   return (
     <div className='mx-5 my-10'>
       <div className='text-4xl'>Games Today</div>
-      <div className='flex flex-wrap'>
+      <div className='flex justify-center flex-wrap'>
         {matchups.map((matchup, index) => (
           <Matchup key={index} matchup={matchup} />
         ))}
