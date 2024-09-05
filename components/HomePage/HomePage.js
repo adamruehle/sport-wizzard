@@ -7,7 +7,7 @@ import FAQ from './FAQ/FAQ';
 
 const HomePage = () => {
   return (
-    <main>
+    <main >
       <div className="flex flex-col md:flex-row m-8 items-center">
       <div className="flex flex-col mx-5 flex-grow text-center md:text-left">
         <span className={`text-4xl md:text-5xl lg:text-6xl`}>
@@ -58,17 +58,13 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className={styles.offersContainer}>
-        <div className={styles.offersContainerTitles}>
-          <div className={styles.offersTitle}>
-            <span>Sharpen your edge</span>
-          </div>
-          <div className={styles.offersTitleDescription}>
-            <span>Choose the plan that works best for you</span>
-          </div>
+      <div className={`${styles.offersContainer} px-7 py-3`}>
+        <div className={``}>
+          <div className={`text-black text-center  font-bold text-5xl sm:text-7xl`}> Sharpen your edge </div>
+          <div className={`text-black text-center my-3 font-semibold text-lg sm:text-2xl`}> Choose the plan that works best for you </div>
         </div>
-        <div className={styles.offers}>
-          <div className={styles.offer1}>
+        <div className={`flex justify-around`}>
+          <div className={``}>
             <Offer
               title="Free Tier"
               description="Limited pick access-No account needed-Analytics and visual summary"
@@ -76,7 +72,7 @@ const HomePage = () => {
               period=""
             />
           </div>
-          <div className={styles.offer2}>
+          <div className={``}>
             <Offer
               title="Monthly"
               description="Flexibility with payments-Full access to all picks"
@@ -94,7 +90,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.faqContainer}>
+      <div className={`p-7 text-center flex flex-col`}>
         <span className={styles.faqTitle}>Frequently Asked Questions</span>
         <hr className={styles.faqLine}/>
         <FAQ question="What is sportwizzard?" answer="Sportwizzard is a sports betting platform that uses AI to provide data-driven insights to help users make smarter bets."/>
